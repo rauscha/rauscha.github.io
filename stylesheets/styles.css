@@ -183,6 +183,11 @@ footer {
   bottom:50px;
 }
 
+.hangingindent {
+    padding-left: 22px ;
+    text-indent: -22px ;
+}
+
 @media print, screen and (max-width: 960px) {
   
   div.wrapper {

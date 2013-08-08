@@ -871,3 +871,8 @@ footer {
 .open .dropdown-toggle {
   outline: 0;
 }
+
+.leftline {
+	padding-left: 1em;
+	border-left: thin solid #777;
+}

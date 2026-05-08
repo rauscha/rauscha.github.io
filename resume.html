@@ -1,234 +1,377 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    
-    <link rel="icon" 
-      type="image/png" 
-      href="favicon.png" />
-    
-    <title>Andrew C. Rausch</title>
-    
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <style type="text/css">
-    	body 
-    	{ 
-    		background-image: url("images/lightgreycranebackground.png");
-    		background-repeat: no-repeat;
-    		}
-    </style>
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Andrew C. Rausch, MD</h1>
-        <p>Maternal-Fetal Medicine &mdash;<br>
-		Chicago, IL</p>
-		
-		<p>
-		    <a href="/" title="Main Page" style="color: #777; text-decoration: none;">Home</a>
-                    <br><a href="publications.html" title="List of Publications" style="color: #777; text-decoration: none;">Publications</a>
-                    <br><a href="resume.html" style="color:#777; text-decoration: none">Resume</a> <a href="Andrew_Rausch_CV.pdf" title="Vitae"><i class="icon-file"></i></a><br>
-                </p>
-		
-		<p>Elsewhere on the web:<br>
-		Twitter <a href="http://twitter.com/rauscha" title="@rauscha on Twitter"><i class="icon-pencil"></i></a><br>
-		Instagram <a href="http://instagram.com/rauscha" title="rauscha on Instagram"><i class="icon-camera"></i></a><br>
-		</p>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Resume and curriculum vitae for Andrew C. Rausch, MD — Maternal-Fetal Medicine physician and Assistant Professor at the University of Chicago.">
 
-        <!---<p class="view"><a href="https://github.com/rauscha">View My GitHub Profile</a></p>
---->
-      </header>
-      <section>
-        <h2>I am Andrew Crane Rausch, <!---<img src="images/me_48px.jpg" alt="Me" align="right">---></h2>
+  <title>Resume &mdash; Andrew C. Rausch, MD</title>
 
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,700&display=swap">
+  <link rel="stylesheet" href="stylesheets/stylesheet.css">
 
-<h3>Find out more about my past work.</h3>
+  <!-- Google Analytics GA4 — replace G-XXXXXXXXXX with your real Measurement ID -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+</head>
+<body>
 
-<hr>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
 
-<p>A full CV is available here 
-<a href="Andrew_Rausch_CV.pdf" title="Vitae"><i class="icon-file"></i></a></p>
+  <div class="site-wrapper">
 
-	   
-<h3>Professional Experience</h3>
-	<div class="leftline">
-		<h5>Assistant Professor, <em>University of Chicago, Department of Obstetrics &amp; Gynecology, Section of Maternal&mdash;Fetal Medicine</em><br>August 2021 &mdash; current</h5>
-	</div><br>
-	      
-<h3>Medical Training</h3>
+    <!-- ==================== SIDEBAR ==================== -->
+    <aside class="site-sidebar" aria-label="Site navigation">
 
-	<div class="leftline">
+      <img
+        class="site-avatar"
+        src="images/me_48px.jpg"
+        alt="Andrew C. Rausch, MD — headshot"
+        width="48"
+        height="48"
+      >
 
-		<h5>Fellowship, <em>North Shore University Hospital and Long Island Jewish Medical Center (Northwell Health), Manhasset, NY</em><br> July 2018 &mdash; June 2021</h5>
-        	Northwell Health &amp; Hofstra University. Anticipated thesis: Fetal weight estimation using neural networks.<br>
-	</div><br>
+      <div class="site-identity">
+        <p class="site-name">Andrew C. Rausch, MD</p>
+        <p class="site-tagline">Maternal-Fetal Medicine<br>University of Chicago</p>
+      </div>
 
-<div class="leftline">
-<h5>Residency, <em>Stamford Hospital, Stamford, CT</em><br> July 2014 &mdash; June 2018</h5>
-        Stamford Hospital &amp; Columbia University College of Physicians &amp; Surgeons residency in Obstetrics &amp; Gynecology.<br>
-</div><br>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="publications.html">Publications</a>
+        <a href="resume.html" aria-current="page">Resume</a>
+      </nav>
 
-<div class="leftline">
-<h5>Medical School, <em>Tufts University School of Medicine, Boston, MA.</em><br>August 2010 &mdash; June 2014</h5>
-</div><br>
+      <div class="site-social" aria-label="Contact and profiles">
+        <p class="site-social-label">Contact &amp; Profiles</p>
 
-<h3>Education</h3>
+        <!-- Email -->
+        <a href="mailto:ARausch@bsd.uchicago.edu" aria-label="Email Andrew Rausch">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path d="M3 4a2 2 0 0 0-2 2v1.16l9 5.4 9-5.4V6a2 2 0 0 0-2-2H3Zm16 4.337-8.447 5.07a1 1 0 0 1-1.106 0L1 8.337V14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.337Z"/>
+          </svg>
+          ARausch@bsd.uchicago.edu
+        </a>
 
-<div class="leftline">
+        <!-- PubMed -->
+        <a href="https://pubmed.ncbi.nlm.nih.gov/?term=Rausch+AC%5BAuthor%5D&sort=date" target="_blank" rel="noopener noreferrer" aria-label="PubMed profile (opens in new tab)">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+            <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0 1 12 2v5h4a1 1 0 0 1 .82 1.573l-7 10A1 1 0 0 1 8 18v-5H4a1 1 0 0 1-.82-1.573l7-10a1 1 0 0 1 1.12-.381Z" clip-rule="evenodd"/>
+          </svg>
+          PubMed
+        </a>
 
-<h5>Undergraduate, <em>Carleton College, Northfield, MN.</em><br>September 2004 &mdash; June 2008</h5>
-        Bachelor of Arts, Physics &amp; Astronomy major, thesis: <em>Physics of Superstorms &amp; Tornadoes</em>.
-<br>
-</div><br>
+        <!-- GitHub -->
+        <a href="https://github.com/rauscha" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile (opens in new tab)">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12Z"/>
+          </svg>
+          GitHub
+        </a>
 
-<h3>Licensure</h3>
-<div class="leftline">
-<h5>NY State Medical License, 2018 &mdash; 2021</h5>
-</div>
+        <!-- Twitter / X -->
+        <a href="https://twitter.com/rauscha" target="_blank" rel="noopener noreferrer" aria-label="Twitter/X profile (opens in new tab)">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
+          </svg>
+          Twitter / X
+        </a>
 
-<h3>Research</h3>
+        <!-- Google Scholar — fill in your profile URL below -->
+        <!-- <a href="https://scholar.google.com/citations?user=YOURPROFILEID" target="_blank" rel="noopener noreferrer">Google Scholar</a> -->
 
-<div class="leftline">
+        <!-- ORCID — fill in your ORCID iD below -->
+        <!-- <a href="https://orcid.org/0000-0000-0000-0000" target="_blank" rel="noopener noreferrer">ORCID</a> -->
+      </div>
 
+      <a
+        class="btn-cv"
+        href="Andrew_Rausch_CV.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Download CV as PDF (opens in new tab)"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+          <path d="M8 1a.75.75 0 0 1 .75.75v6.19l1.97-1.97a.75.75 0 1 1 1.06 1.06L8.53 10.28a.75.75 0 0 1-1.06 0L4.22 7.03a.75.75 0 0 1 1.06-1.06L7.25 7.94V1.75A.75.75 0 0 1 8 1ZM2 12.25a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z"/>
+        </svg>
+        Download CV
+      </a>
 
-<h5>Research Scholarship, <em>Tufts Evidence-based Practice Center, Boston, MA</em><br> June &mdash; August 2011</h5>
-	Harold Williams Scholarship funded research with Dr. Joseph Lau<br>
-	Examined intravascular cardiac diagnosis techniques with systematic review & meta-analysis. Prototyped and published a new pipeline for Topic Identification in Comparative Effectiveness Reviews for the Agency for Healthcare Research and Quality.<br>
-</div><br>
+    </aside>
+    <!-- /sidebar -->
 
-<div class="leftline">
+    <!-- ==================== MAIN ==================== -->
+    <main class="site-main" id="main-content">
 
-<h5>Research Assistant, <em>Psychiatry Neuroimaging Laboratory, Boston, MA</em><br>January 2009 &mdash; August 2010</h5>
-	A Brigham & Womens Hospital advanced imaging laboratory under Prof. Martha Shenton<br>
-	Image processing and analysis of MRI and DTMRI data involving brain registration, streamline tractography analysis and clustering, &amp; stochastic tractography projects.<br>
-</div><br>
-
-<div class="leftline">
-
-<h5>Research Assistant, <em>Carleton College, Northfield, MN</em><br>March &mdash; November 2007</h5>
-	An astronomical imaging laboratory directed by Prof. Cynthia Blaha<br>
-	Catalogued and analyzed ionized hydrogen regions, supernova remnants, and planetary nebulae in the Andromeda (M31) and Pinwheel (M33) galaxies.<br>
-
-</div><br>
-
-<div class="leftline">
-
-<h5>Laboratory Assistant, <em>University of Minnesota, Minneapolis/St. Paul, MN</em><br>June &mdash; September 2004 &amp; 2005</h5>
-	A Department of Agronomy & Plant Genomics Laboratory with Dr. Ron Okagaki<br>
-	Developed oat-maize addition lines, placing corn DNA into oat backgrounds to isolate corn chromosomes for characterization.
-</div><br>
-
-
-<h3>Other Work</h3>
-
-<div class="leftline">
-<h5>Project Manager, <em>Hennepin County Medical Center, Minneapolis, MN</em><br>July &mdash; December 2008</h5>
-	Managed projects for the Director of Specialty Clinics, Mary Kurvers<br>
-	Ran studies on appointment fail rates and permanent venous catheter adverse outcomes. Co-managed Cancer Center's "Go-Live" of the EPIC EMR and Vocera communication system. Performed data analysis for Emergency Department LEAN team
-</div><br>
-
-<div class="leftline">
-<h5>Lab Assistant &amp; Tutor, <em>Carleton College, Northfield, MN</em><br>September 2005 &mdash; June 2008</h5>
-	Prepared experiments and guided students' data analysis for lab courses. Operated a 16" telescope for the monthly Goodsell Observatory Open House and conducted small group tours teaching visitors about constellations and astronomy. Tutored groups of 5-20 students twice weekly in Classical &amp; Computational Mechanics.
-</div><br>
-
-<h4>Awards</h4>
-
-<div class="leftline">
-<h5>40 Featured Voices in MFM, <em>2020 SMFM Annual Meeting</em>, 2020</h5>
-</div>
-
-<div class="leftline">
-<h5>SMFM Residency Program Award for Excellence in Obstetrics, <em>Stamford Hospital OBGYN Residency</em>, 2018</h5>
-</div>
-
-<div class="leftline">
-<h5>Gold Foundation Humanism &amp; Excellence in Teaching Award, <em>Columbia University College of Physicians &amp; Surgeons</em>, 2016</h5>
-</div>
-
-<div class="leftline">
-<h5>Junior Resident Teacher of the Year, <em>Stamford Hospital OBGYN Residency</em>, 2015 &amp; 2016</h5>
-</div>
-
-<div class="leftline">
-<h5>Harold Williams Summer Research Fellowship, <em>Tufts University School of Medicine</em>, 2011</h5>
-</div>
-
-<div class="leftline">
-<h5>Mike Ewers Award, <em>Carleton College</em>, 2007</h5>
-</div>
-
-<div class="leftline">
-<h5>National Merit Scholar, <em>Carleton College</em>, 2004&mdash;2008</h5>
-</div>
-
-<div class="leftline">
-<h5>Carleton Merit Scholar, <em>Carleton College</em>, 2004&mdash;2008</h5>
-</div>
-
-<div class="leftline">
-<h5>International Baccalaureate Diploma, <em>Southwest High School</em>, 2004</h5>
-</div>
-
-<h4>Memberships</h4>
-
-<div class="leftline">
-<h5>Member, Society for Maternal-Fetal Medicine, current</h5>
-</div>
-
-<div class="leftline">
-<h5>Junior Fellow, American College of Obstetricians and Gynecologists, current</h5>
-</div>
-
-<div class="leftline">
-<h5>Member, Massachusetts Medical Society, current</h5>
-</div>
-
-<!---<div class="leftline">
-<h5>Member, Admissions Committee, <em>Tufts University School of Medicine</em>, 2013&mdash;present</h5>
-</div>
-
-<div class="leftline">
-<h5>Member, Student Self Study Committee, for Liason Committee on Medical Education reaccreditation, <em>Tufts University School of Medicine</em>, 2012&mdash;present</h5>
-</div>
-
-<div class="leftline">
-<h5>Class Representative, Student Library Activity Committee, <em>Tufts University School of Medicine</em>, 2011&mdash;present</h5>
-</div>
-
-<div class="leftline">
-<h5>Student Representative, Committee on Interspecialty, <em>Massachusetts Medical Society</em>, 2010&mdash;2011</h5>
-</div>
-
-<div class="leftline">
-<h5>Information Technology Representative, Medical Education Representative Committee, <em>Tufts University School of Medicine</em>, 2011</h5>
-</div>
---->
-
+      <!-- Page heading -->
+      <section class="page-section" aria-labelledby="resume-heading">
+        <h1 id="resume-heading" class="intro-headline">Resume</h1>
+        <p class="text-light">A complete curriculum vitae is available as a
+          <a class="btn-cv" href="Andrew_Rausch_CV.pdf" target="_blank" rel="noopener noreferrer" aria-label="Download full CV as PDF (opens in new tab)">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+              <path d="M8 1a.75.75 0 0 1 .75.75v6.19l1.97-1.97a.75.75 0 1 1 1.06 1.06L8.53 10.28a.75.75 0 0 1-1.06 0L4.22 7.03a.75.75 0 0 1 1.06-1.06L7.25 7.94V1.75A.75.75 0 0 1 8 1ZM2 12.25a.75.75 0 0 1 .75-.75h10.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z"/>
+            </svg>
+            PDF download
+          </a>
+        </p>
       </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a><br>
-        with help from <a href="http://twitter.github.io/bootstrap/">Bootstrap</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("UA-40456028-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
 
-  </body>
+      <!-- ---- Current Position ---- -->
+      <section class="page-section" aria-labelledby="position-heading">
+        <h2 id="position-heading" class="section-heading">Current Position</h2>
+        <div class="cv-section">
+          <article class="cv-entry">
+            <h3 class="cv-entry-title">Assistant Professor</h3>
+            <p class="cv-entry-org">Department of Obstetrics &amp; Gynecology, Section of Maternal-Fetal Medicine &mdash; University of Chicago</p>
+            <span class="cv-entry-dates">August 2021 &ndash; present</span>
+          </article>
+        </div>
+      </section>
+
+      <!-- ---- Institutional Roles ---- -->
+      <section class="page-section" aria-labelledby="roles-heading">
+        <h2 id="roles-heading" class="section-heading">Institutional Roles</h2>
+        <div class="cv-section">
+
+          <article class="cv-entry cv-entry--compact">
+            <p class="cv-entry-title">Director of Ultrasound</p>
+            <p class="cv-entry-org">Department of Obstetrics &amp; Gynecology, University of Chicago</p>
+            <span class="cv-entry-dates">2026 &ndash; present</span>
+          </article>
+
+          <article class="cv-entry cv-entry--compact">
+            <p class="cv-entry-title">MFM Lead, Pregnancy and Preconception in IBD Clinic</p>
+            <p class="cv-entry-org">University of Chicago Medicine</p>
+            <span class="cv-entry-dates">2025 &ndash; present</span>
+          </article>
+
+          <article class="cv-entry cv-entry--compact">
+            <p class="cv-entry-title">Site Director, MFM Fellowship</p>
+            <p class="cv-entry-org">University of Chicago</p>
+            <span class="cv-entry-dates">2022 &ndash; present</span>
+          </article>
+
+          <article class="cv-entry cv-entry--compact">
+            <p class="cv-entry-title">Med Ed Champion (MFM), OB/Gyn Residency</p>
+            <p class="cv-entry-org">University of Chicago</p>
+            <span class="cv-entry-dates">2022 &ndash; present</span>
+          </article>
+
+          <article class="cv-entry cv-entry--compact">
+            <p class="cv-entry-title">Sub-internship Lead, Antepartum and Birth Rooms Sub-I</p>
+            <p class="cv-entry-org">University of Chicago</p>
+            <span class="cv-entry-dates">2022 &ndash; present</span>
+          </article>
+
+          <article class="cv-entry cv-entry--compact">
+            <p class="cv-entry-title">Clinical Instructor, OB/GYN</p>
+            <p class="cv-entry-org">Hofstra University Zucker School of Medicine</p>
+            <span class="cv-entry-dates">2018 &ndash; 2021</span>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- ---- Medical Training ---- -->
+      <section class="page-section" aria-labelledby="training-heading">
+        <h2 id="training-heading" class="section-heading">Medical Training</h2>
+        <div class="cv-section">
+
+          <article class="cv-entry">
+            <h3 class="cv-entry-title">Fellowship, Maternal-Fetal Medicine</h3>
+            <p class="cv-entry-org">Northwell Health / Hofstra University Zucker School of Medicine (North Shore University Hospital &amp; Long Island Jewish Medical Center), Manhasset, NY</p>
+            <span class="cv-entry-dates">2018 &ndash; 2021</span>
+          </article>
+
+          <article class="cv-entry">
+            <h3 class="cv-entry-title">Residency, Obstetrics &amp; Gynecology</h3>
+            <p class="cv-entry-org">Stamford Hospital / Columbia University College of Physicians &amp; Surgeons, Stamford, CT</p>
+            <span class="cv-entry-dates">2014 &ndash; 2018</span>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- ---- Education ---- -->
+      <section class="page-section" aria-labelledby="education-heading">
+        <h2 id="education-heading" class="section-heading">Education</h2>
+        <div class="cv-section">
+
+          <article class="cv-entry">
+            <h3 class="cv-entry-title">MD</h3>
+            <p class="cv-entry-org">Tufts University Sackler School of Medicine, Boston, MA</p>
+            <span class="cv-entry-dates">2010 &ndash; 2014</span>
+          </article>
+
+          <article class="cv-entry">
+            <h3 class="cv-entry-title">BA, Physics &amp; Astronomy <em>(cum laude)</em></h3>
+            <p class="cv-entry-org">Carleton College, Northfield, MN</p>
+            <span class="cv-entry-dates">2004 &ndash; 2008</span>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- ---- Board Certification & Licensure ---- -->
+      <section class="page-section" aria-labelledby="licensure-heading">
+        <h2 id="licensure-heading" class="section-heading">Board Certification &amp; Licensure</h2>
+        <div class="cv-section">
+
+          <article class="cv-entry cv-entry--compact">
+            <p class="cv-entry-title">Board Certification, ABOG (Obstetrics &amp; Gynecology)</p>
+            <span class="cv-entry-dates">2021 &ndash; present</span>
+          </article>
+
+          <article class="cv-entry cv-entry--compact">
+            <p class="cv-entry-title">Subspecialty Board Eligibility, ABOG (Maternal-Fetal Medicine)</p>
+            <span class="cv-entry-dates">2021 &ndash; present</span>
+          </article>
+
+          <article class="cv-entry cv-entry--compact">
+            <p class="cv-entry-title">Medical License, Illinois</p>
+            <span class="cv-entry-dates">2021 &ndash; present</span>
+          </article>
+
+          <article class="cv-entry cv-entry--compact">
+            <p class="cv-entry-title">Medical License, New York</p>
+            <span class="cv-entry-dates">2018 &ndash; 2022</span>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- ---- Awards & Honors ---- -->
+      <section class="page-section" aria-labelledby="awards-heading">
+        <h2 id="awards-heading" class="section-heading">Awards &amp; Honors</h2>
+        <div class="cv-section">
+
+          <article class="cv-entry cv-entry--compact">
+            <p class="cv-entry-title">National Faculty Award for Excellence in Resident Education</p>
+            <p class="cv-entry-org">OB/GYN Residency, University of Chicago &amp; Endeavor Health</p>
+            <span class="cv-entry-dates">2024</span>
+          </article>
+
+          <article class="cv-entry cv-entry--compact">
+            <p class="cv-entry-title">40 Featured Voices in MFM</p>
+            <p class="cv-entry-org">2020 SMFM Annual Meeting</p>
+            <span class="cv-entry-dates">2020</span>
+          </article>
+
+          <article class="cv-entry cv-entry--compact">
+            <p class="cv-entry-title">Gold Foundation Humanism and Excellence in Teaching Award</p>
+            <p class="cv-entry-org">Columbia University</p>
+            <span class="cv-entry-dates">2016</span>
+          </article>
+
+          <article class="cv-entry cv-entry--compact">
+            <p class="cv-entry-title">Junior Resident Teacher of the Year</p>
+            <p class="cv-entry-org">Stamford Hospital OB/Gyn Residency</p>
+            <span class="cv-entry-dates">2015, 2016</span>
+          </article>
+
+          <article class="cv-entry cv-entry--compact">
+            <p class="cv-entry-title">Harold Williams Summer Research Fellowship</p>
+            <p class="cv-entry-org">Tufts University</p>
+            <span class="cv-entry-dates">2011</span>
+          </article>
+
+          <article class="cv-entry cv-entry--compact">
+            <p class="cv-entry-title">National Merit Scholar</p>
+            <span class="cv-entry-dates">2004 &ndash; 2008</span>
+          </article>
+
+          <article class="cv-entry cv-entry--compact">
+            <p class="cv-entry-title">Carleton Merit Scholar</p>
+            <p class="cv-entry-org">Carleton College</p>
+            <span class="cv-entry-dates">2004 &ndash; 2008</span>
+          </article>
+
+          <article class="cv-entry cv-entry--compact">
+            <p class="cv-entry-title">Mike Ewers Award</p>
+            <p class="cv-entry-org">Minnesota Space Grant Consortium</p>
+            <span class="cv-entry-dates">2007</span>
+          </article>
+
+          <article class="cv-entry cv-entry--compact">
+            <p class="cv-entry-title">Bachelor of Arts, Cum Laude</p>
+            <p class="cv-entry-org">Carleton College</p>
+            <span class="cv-entry-dates">2008</span>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- ---- Professional Memberships ---- -->
+      <section class="page-section" aria-labelledby="memberships-heading">
+        <h2 id="memberships-heading" class="section-heading">Professional Memberships</h2>
+        <div class="cv-section">
+
+          <article class="cv-entry cv-entry--compact">
+            <p class="cv-entry-title">American College of Obstetricians and Gynecologists</p>
+            <p class="cv-entry-org">Fellow</p>
+          </article>
+
+          <article class="cv-entry cv-entry--compact">
+            <p class="cv-entry-title">Society for Maternal-Fetal Medicine</p>
+            <p class="cv-entry-org">Member</p>
+          </article>
+
+          <article class="cv-entry cv-entry--compact">
+            <p class="cv-entry-title">American Institute of Ultrasound in Medicine</p>
+            <p class="cv-entry-org">Member</p>
+          </article>
+
+          <article class="cv-entry cv-entry--compact">
+            <p class="cv-entry-title">International Society of Ultrasound in Obstetrics and Gynecology</p>
+            <p class="cv-entry-org">Member</p>
+          </article>
+
+          <article class="cv-entry cv-entry--compact">
+            <p class="cv-entry-title">International Society for Prenatal Diagnosis</p>
+            <p class="cv-entry-org">Member</p>
+          </article>
+
+          <article class="cv-entry cv-entry--compact">
+            <p class="cv-entry-title">Society for Pediatric Radiology</p>
+            <p class="cv-entry-org">Allied Member</p>
+          </article>
+
+          <article class="cv-entry cv-entry--compact">
+            <p class="cv-entry-title">Massachusetts Medical Society</p>
+            <p class="cv-entry-org">Member</p>
+          </article>
+
+          <article class="cv-entry cv-entry--compact">
+            <p class="cv-entry-title">Ad hoc Reviewer, <em>Ultrasound in Obstetrics and Gynecology</em></p>
+          </article>
+
+        </div>
+      </section>
+
+    </main>
+    <!-- /main -->
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="site-footer" aria-label="Site footer">
+      <p>
+        &copy; <span id="year"></span> Andrew C. Rausch, MD &mdash;
+        Hosted on <a href="https://pages.github.com" target="_blank" rel="noopener noreferrer">GitHub Pages</a>
+      </p>
+    </footer>
+
+  </div><!-- /site-wrapper -->
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+
+</body>
 </html>

@@ -22,7 +22,7 @@ Three HTML pages share a common layout pattern:
 
 **`stylesheets/stylesheet.css`** — single consolidated stylesheet. Uses CSS custom properties (`--color-*`, `--font-*`, `--layout-*`) for theming. Includes dark mode via `@media (prefers-color-scheme: dark)` and responsive breakpoints. Typography via Google Fonts (Lato).
 
-**`images/Andrew_Rausch_CV.pdf`** — linked directly from `resume.html` and the sidebar; update both if the file is renamed.
+**`Andrew_Rausch_CV.pdf`** — at the repo root; linked directly from `resume.html` and the sidebar. A stray copy also exists at `images/Andrew_Rausch_CV.pdf` — the live links use the root copy. Update both HTML files if the file is renamed.
 
 ## Easter Egg
 

@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Andrew C. Rausch, MD — Maternal-Fetal Medicine specialist and Assistant Professor at the University of Chicago. Clinical expertise in fetal diagnosis, high-risk pregnancy, and advanced ultrasound.">
+  <meta name="description" content="Web apps and an AI podcast built by Andrew C. Rausch, MD — a sleep app, a critter tracker, the Parallax synth playground, and the Asynchronous podcast.">
 
-  <title>Andrew C. Rausch, MD</title>
+  <title>Apps &mdash; Andrew C. Rausch, MD</title>
 
   <link rel="icon" type="image/png" href="favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -38,10 +38,10 @@
       </div>
 
       <nav class="site-nav" aria-label="Primary">
-        <a href="index.html" aria-current="page">Home</a>
+        <a href="index.html">Home</a>
         <a href="publications.html">Publications</a>
         <a href="resume.html">Resume</a>
-        <a href="apps.html">Apps</a>
+        <a href="apps.html" aria-current="page">Apps</a>
       </nav>
 
       <div class="site-social" aria-label="Contact and profiles">
@@ -107,44 +107,89 @@
     <!-- ==================== MAIN ==================== -->
     <main class="site-main" id="main-content">
 
-      <!-- Bio / intro -->
-      <section class="page-section" aria-labelledby="intro-heading">
-
-        <h1 id="intro-heading" class="intro-headline">Andrew C. Rausch, MD</h1>
-        <p class="intro-subheadline">Assistant Professor of Maternal-Fetal Medicine &middot; University of Chicago</p>
-
-        <hr>
-
-        <p>Andrew Rausch is a Maternal-Fetal Medicine specialist and Assistant Professor in the Department of Obstetrics &amp; Gynecology at the University of Chicago, where he also serves as Director of Ultrasound and Site Director of the MFM Fellowship. His clinical expertise encompasses fetal diagnosis, high-risk pregnancy, and advanced ultrasound; his research focuses on the application of artificial intelligence and machine learning to obstetric problems, including fetal weight estimation via neural networks.</p>
-
-        <p>Before medicine, he studied physics and astronomy at Carleton College &#8212; an undergraduate background that shapes his quantitative approach to clinical research. He remains interested in the intersection of technology and medicine, AI and machine learning in obstetrics, and is reliably opinionated about coffee.</p>
-
+      <!-- Page heading -->
+      <section class="page-section" aria-labelledby="apps-heading">
+        <h1 id="apps-heading" class="intro-headline">Apps</h1>
+        <p class="text-light">A few things I&#8217;ve built outside the clinic &mdash; small web apps and an experimental AI podcast.</p>
       </section>
 
-      <!-- Research interests -->
-      <section class="page-section" aria-labelledby="interests-heading">
-        <h2 id="interests-heading" class="section-heading">Research &amp; Interests</h2>
-        <ul class="research-interests" aria-label="Research interests">
-          <li>AI &amp; machine learning in obstetrics</li>
-          <li>Fetal weight estimation</li>
-          <li>Advanced fetal ultrasound</li>
-          <li>3D fetal imaging</li>
-          <li>Twin gestations &amp; TTTS</li>
-          <li>High-risk pregnancy</li>
-          <li>Comparative effectiveness research</li>
-          <li>Medical education</li>
-        </ul>
+      <!-- ---- Web Apps ---- -->
+      <section class="page-section" aria-labelledby="webapps-heading">
+        <h2 id="webapps-heading" class="section-heading">Web Apps</h2>
+
+        <div class="app-list">
+
+          <!-- Sleep App -->
+          <article class="app-card">
+            <div class="app-card-head">
+              <h3 class="app-card-title">Sleep App</h3>
+            </div>
+            <p class="app-card-desc">A progressive web app built around one job: put me to sleep and let me stay there. It layers ambient soundscapes with AI-generated sleep stories and guided meditations, all running on your phone with no account and no backend. In active development.</p>
+            <div class="app-links">
+              <a class="app-link" href="https://andrewrausch.com/SleepApp/" target="_blank" rel="noopener noreferrer" aria-label="Open Sleep App (opens in new tab)">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 0 0 1.06 0l7.22-7.22v5.69a.75.75 0 0 0 1.5 0v-7.5a.75.75 0 0 0-.75-.75h-7.5a.75.75 0 0 0 0 1.5h5.69l-7.22 7.22a.75.75 0 0 0 0 1.06Z" clip-rule="evenodd"/></svg>
+                Open app
+              </a>
+            </div>
+          </article>
+
+          <!-- Critter Radar -->
+          <article class="app-card">
+            <div class="app-card-head">
+              <h3 class="app-card-title">Critter Radar</h3>
+            </div>
+            <p class="app-card-desc">A phone-friendly companion for Dreamlight Valley. Tap to log each daily feeding, watch your tallies climb toward a new companion, and check which critters are out right now based on the in-game clock and weather. Progress is saved on your device, with a one-tap export for backups, and it installs to your home screen like a native app.</p>
+            <div class="app-links">
+              <a class="app-link" href="https://andrewrausch.com/critter-radar/" target="_blank" rel="noopener noreferrer" aria-label="Open Critter Radar (opens in new tab)">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 0 0 1.06 0l7.22-7.22v5.69a.75.75 0 0 0 1.5 0v-7.5a.75.75 0 0 0-.75-.75h-7.5a.75.75 0 0 0 0 1.5h5.69l-7.22 7.22a.75.75 0 0 0 0 1.06Z" clip-rule="evenodd"/></svg>
+                Open app
+              </a>
+            </div>
+          </article>
+
+          <!-- Parallax -->
+          <article class="app-card">
+            <div class="app-card-head">
+              <h3 class="app-card-title">Parallax</h3>
+              <span class="pub-badge">Work in progress</span>
+            </div>
+            <p class="app-card-desc">A browser playground for the Mutable Instruments Braids macro-oscillator &mdash; &Eacute;milie Gillet&#8217;s open-source synthesizer DSP, compiled to WebAssembly and run live in the page. It pairs a real-time oscilloscope with a per-model panel that explains what each knob is actually doing, plus a short staff for sketching melodies.</p>
+            <div class="app-links">
+              <a class="app-link" href="https://andrewrausch.com/parallax/" target="_blank" rel="noopener noreferrer" aria-label="Open Parallax (opens in new tab)">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 0 0 1.06 0l7.22-7.22v5.69a.75.75 0 0 0 1.5 0v-7.5a.75.75 0 0 0-.75-.75h-7.5a.75.75 0 0 0 0 1.5h5.69l-7.22 7.22a.75.75 0 0 0 0 1.06Z" clip-rule="evenodd"/></svg>
+                Open app
+              </a>
+            </div>
+          </article>
+
+        </div>
       </section>
 
-      <!-- Currently -->
-      <section class="page-section" aria-labelledby="currently-heading">
-        <h2 id="currently-heading" class="section-heading">Currently</h2>
-        <ul class="currently-list">
-          <li>Director of Ultrasound, Department of Obstetrics &amp; Gynecology, University of Chicago</li>
-          <li>MFM Lead, Pregnancy and Preconception in IBD Clinic</li>
-          <li>Site Director, MFM Fellowship, University of Chicago</li>
-          <li>GOOD Trial &#8212; Outcomes in Gastroschisis (ongoing)</li>
-        </ul>
+      <!-- ---- Podcast ---- -->
+      <section class="page-section" aria-labelledby="podcast-heading">
+        <h2 id="podcast-heading" class="section-heading">Podcast</h2>
+
+        <div class="app-list">
+
+          <!-- Asynchronous -->
+          <article class="app-card">
+            <div class="app-card-head">
+              <h3 class="app-card-title">Asynchronous</h3>
+            </div>
+            <p class="app-card-desc">An on-demand, AI-generated podcast. Send it a topic and two hosts &mdash; Juno and Caspar &mdash; turn that stray curiosity into a source-grounded, fact-checked episode with research, back-and-forth dialogue, and two-voice narration. New episodes publish to a standard RSS feed you can subscribe to in any podcast player.</p>
+            <div class="app-links">
+              <a class="app-link" href="https://andrewrausch.com/Dialog-podcast/" target="_blank" rel="noopener noreferrer" aria-label="Open the Asynchronous podcast page (opens in new tab)">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M5.22 14.78a.75.75 0 0 0 1.06 0l7.22-7.22v5.69a.75.75 0 0 0 1.5 0v-7.5a.75.75 0 0 0-.75-.75h-7.5a.75.75 0 0 0 0 1.5h5.69l-7.22 7.22a.75.75 0 0 0 0 1.06Z" clip-rule="evenodd"/></svg>
+                Listen
+              </a>
+              <a class="app-link" href="https://andrewrausch.com/Dialog-podcast/feed.xml" target="_blank" rel="noopener noreferrer" aria-label="Subscribe to the Asynchronous RSS feed (opens in new tab)">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.755-23.954-24-24v4.812z"/></svg>
+                Subscribe via RSS
+              </a>
+            </div>
+          </article>
+
+        </div>
       </section>
 
     </main>

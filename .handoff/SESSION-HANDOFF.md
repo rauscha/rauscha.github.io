@@ -1,32 +1,36 @@
-# Session hand-off — 2026-06-03 (machine: Windows 11 / andre)
+# Session hand-off — 2026-06-07 (machine: Windows 11 / andre)
 
 ## STATE (read this first)
-- Branch: `master` — clean and **synced with origin** (fast-forwarded this session; HEAD `275bbfc`).
-- No code was authored on this machine this session. It was 3 commits behind work done on another
-  machine; those are now pulled in. Only one worktree exists — nothing is stranded.
-- Site is live at andrewrausch.com. Notable change made elsewhere: **Google Analytics 4 was
-  re-added** (property `G-BWSX87WFZ6`) across all four pages.
+- Branch: `master` — clean and **synced with origin** (HEAD `dc59b42`).
+- One worktree only; nothing stranded. Site is live at andrewrausch.com.
+- This session de-duplicated the sidebar into one shared file and cleared two loose ends
+  (deleted AGENTS.md, confirmed GA4 works). All committed and pushed.
 
 ## Done this session
-- Re-checked worktrees: only the main one remains (the old Codex worktree stayed removed).
-- Fast-forwarded local `master` to origin — 3 commits done on another machine, now synced:
-  - `3fdd5d3` minor `apps.html` edit
-  - `5b73f43` added GA4 tracking (`G-BWSX87WFZ6`) to index / publications / resume / apps
-  - `275bbfc` minor `resume.html` edit
-- Refreshed this hand-off and the local next-steps notes.
-
-> The prior session's substantive work (new Apps page, CV swap, sidebar + Twitter changes) is in
-> git history around commit `6d414dd`.
+- **Sidebar de-duplicated** into `js/sidebar.js` (commit `dc59b42`). The nav, contact links, and
+  CV button now live in ONE file, injected into an `<aside id="site-sidebar">` shell on each page
+  via a classic `<script>` include (chosen over fetch so a page opened from disk via file:// still
+  renders). The active nav link is set automatically from the page filename. Verified with a
+  headless DOM render (all 4 pages pass) + live-site curl (js/sidebar.js serves 200).
+- Deleted `AGENTS.md` (stale Codex helper file).
+- Confirmed GA4 (`G-BWSX87WFZ6`) is reporting — analytics working.
 
 ## Next up
-1. Decide on `AGENTS.md` (still untracked in repo root): update + track, git-ignore, or delete.
-2. Verify GA4 (`G-BWSX87WFZ6`) is actually reporting traffic in the Google Analytics dashboard.
-3. Optional: de-duplicate the sidebar HTML (copied across all 4 pages) via a shared snippet.
+1. **Podcast RSS feeds: ensure all are available / discoverable.** Pin down scope first: how many
+   feeds and where they live; what "available" means — linked on the Apps page,
+   `<link rel="alternate" type="application/rss+xml">` in page heads, feed validation, and/or
+   submission to Apple/Spotify. (Only the "Asynchronous" / Dialog-podcast `feed.xml` is known so far.)
+2. Optional: the GA4 snippet, the year script, and the Konami easter egg are still duplicated in all
+   4 pages — could be folded into a shared js file the same way the sidebar was, if wanted.
 
 ## Watch out for
-- `NEXT_STEPS.md` is **git-ignored** (local only) — it does NOT sync to the desktop. Forward items
-  are mirrored here.
-- GA4 was *removed* during the earlier site review and is now *back* — `CLAUDE.md`'s analytics
-  notes may be stale; trust the live HTML.
+- To edit the sidebar now, change `js/sidebar.js` ONCE (not the 4 HTML files). A new page needs the
+  `<aside class="site-sidebar" aria-label="Site navigation" id="site-sidebar"></aside>` +
+  `<script src="js/sidebar.js"></script>` shell where the sidebar goes.
+- The nav is now JS-rendered — it won't appear with JavaScript disabled (fine for this site; the
+  main content is still static HTML).
+- User is often **remote** and CANNOT see local browser preview windows — verify visual/behavioral
+  changes with a headless render check (jsdom) + a live-site curl, not by opening previews.
+- `NEXT_STEPS.md` is **git-ignored** (local only) — does NOT sync to the desktop; forward items are
+  mirrored here.
 - Apps serve from the custom-domain path (e.g. `andrewrausch.com/SleepApp/`), not `rauscha.github.io/...`.
-- `AGENTS.md` stays untracked, so it won't reach the desktop unless you choose to track it.

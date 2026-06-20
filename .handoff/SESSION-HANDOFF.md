@@ -1,46 +1,53 @@
-# Session hand-off — 2026-06-07 (machine: Windows 11 / andre)
+# Session hand-off — 2026-06-20 (machine: Windows 11 / andre)
 
 ## STATE (read this first)
-- Branch: `master` — clean and **synced with origin** (HEAD `e194a46`).
-- One worktree only; nothing stranded. Site is live at andrewrausch.com and verified.
-- This session: added 3 podcast digest feeds to the Apps page, then de-duplicated the
-  last of the cross-page boilerplate (GA4, footer, Konami egg) into shared `js/` files.
-  Everything committed, pushed, and confirmed live.
+- Branch: `master` — clean and **synced with origin** (HEAD `3f7bc0c`).
+- One worktree only; nothing stranded. Site is live at andrewrausch.com.
+- This session: built **two new global skills** for maintaining the site, then used one of
+  them (`update-cv`) to refresh the site from a new CV. Everything committed and pushed.
+- ⚠️ The new skills live in `C:\Users\andre\.claude\skills\` — **outside this repo** — so they
+  do NOT sync to the desktop via this repo's git. See "Watch out for".
 
 ## Done this session
-- **Podcast digest cards** (commit `089c79d`): added **MFM Rounds**, **The Fetal Frontier**, and
-  **Signal in the Scan** to the Podcast section of `apps.html`, each mirroring the Asynchronous
-  card (Listen + Subscribe via RSS). Feeds:
-  `andrewrausch.com/Dialog-podcast/feed-{mfm,fetal,ai}.xml` (all 200, valid RSS).
-- **De-duplicated GA4 / footer / Konami** into shared files (commit `e194a46`), matching the
-  existing `js/sidebar.js` pattern. New: **`js/analytics.js`**, **`js/footer.js`**, **`js/konami.js`**.
-  ~115 lines removed per page. `analytics.js` now **skips `file://` and localhost** so local
-  previews don't pollute GA4. Verified with a headless jsdom render of all 4 pages (sidebar,
-  footer, year stamp, Konami all wire up) + live curl (all shared JS serve 200, zero inline
-  leftovers). `CLAUDE.md` updated to describe the shared-JS layout and the 4th page (apps.html).
+- **Two new global skills created** (in `C:\Users\andre\.claude\skills\`):
+  - **`update-cv`** — hand it a CV PDF; it swaps the downloadable `Andrew_Rausch_CV.pdf` and
+    propagates notable changes across `resume.html`, `publications.html`, `index.html`, and
+    meta/`params.json`, then shows a diff and waits for approval before commit/push.
+  - **`add-app-card`** — adds an app or podcast card to `apps.html` matching house markup
+    (live URL if deployed at `andrewrausch.com/<repo>/`, else `github.com/rauscha/<repo>`;
+    podcasts get Listen + RSS). Also approval-gated.
+- **Validated `update-cv`** with a cold-agent dry run in an isolated worktree, then folded 4
+  fixes back into the skill: PDF text extraction via `pypdf` (the Read tool hits a `pdftoppm`
+  error on Windows), accepted/in-press article handling, a `pub-index` renumber-and-verify
+  caution, and a committee-vs-directorship threshold for the resume.
+- **Ran `update-cv` for real** (commit `3f7bc0c`) from `Downloads\Andrew Rausch CV.pdf`:
+  swapped the CV PDF; added Burns et al. "Unintentional Extensions of the Cesarean Hysterotomy
+  Incision" as **in-press peer-reviewed #1**; added **ENDORAMA 2023** invited talk (#6); added
+  **FBC Policy Committee** role to the resume; added the **Quantitative Ultrasound Biomarkers**
+  trial to the home "Currently" list. `pub-index` renumbered. Pushed live.
 
 ## Next up
-1. **Submit sitemap to Google Search Console** — no code change needed; a one-time action on
-   Google's side. `sitemap.xml` (all 4 pages) and `robots.txt` are already correct. Easiest:
-   add `andrewrausch.com` at search.google.com/search-console, verify via the **Google Analytics**
-   method (GA4 `G-BWSX87WFZ6` is already sitewide → one click), then **Sitemaps → submit
-   `sitemap.xml`**. (Only needs code if the meta-tag verification method is chosen instead.)
-2. Optional / likely-moot: `app.andrewrausch.com` subdomain — apps now serve from path URLs
-   (andrewrausch.com/SleepApp/, /Dialog-podcast/, etc.), so the subdomain is probably unnecessary.
+1. **`add-app-card` is untested** — dry-run it (cold agent + worktree, same as `update-cv`)
+   the next time there's a real or sample app/podcast, to prove it before relying on it.
+2. Optional: **fix the stale `CLAUDE.md` line** that still references a
+   `images/Andrew_Rausch_CV.pdf` "stray copy" — that file no longer exists.
+3. Optional: run the skill **description-optimizer** to tune triggering on both new skills.
+4. Carried over from 2026-06-07 (status unverified): **submit `sitemap.xml` to Google Search
+   Console** — one-time action on Google's side, verify via the GA4 method. Check whether this
+   was ever done.
 
 ## Watch out for
-- **All shared chrome now lives in `js/`** — `sidebar.js`, `footer.js`, `analytics.js`, `konami.js`.
-  Edit ONCE, never per page. A new page needs the two shells
-  (`<aside ... id="site-sidebar">`, `<footer ... id="site-footer">`) + the four `<script src>`
-  includes. See `CLAUDE.md` → Architecture.
-- The page `<head>` font/stylesheet/favicon links are the only remaining cross-page repetition —
-  sharing them would need a build step (Jekyll), which this project deliberately avoids. Leave as-is.
-- User is often **remote** and CANNOT see local browser previews — verify visual/behavioral changes
-  with a headless jsdom render + a live-site curl. jsdom is NOT installed in-repo (no-dependency
-  project); install it to a throwaway temp dir for the check, don't add it to the repo.
-- HTML files are CRLF, JS files are LF (`autocrlf=true`) — the "LF will be replaced by CRLF" warning
-  on `git add` is benign.
-- `NEXT_STEPS.md` is **git-ignored** (local only) — does NOT sync to the other machine; forward
-  items are mirrored here.
+- **The two new skills are NOT in this repo.** They're in `C:\Users\andre\.claude\skills\
+  {update-cv,add-app-card}\`. To use them on the desktop, that folder must be synced/copied
+  there separately — pulling this repo will NOT bring them over.
+- **All shared chrome lives in `js/`** (`sidebar.js`, `footer.js`, `analytics.js`, `konami.js`)
+  — edit ONCE, never per page. See `CLAUDE.md` → Architecture.
+- **User is often remote and CANNOT see local browser previews** — verify visual/behavioral
+  changes with a headless jsdom render + a live-site curl. jsdom is not installed in-repo
+  (no-dependency project); install it to a throwaway temp dir if needed, don't add it to the repo.
+- **CV PDF filename `Andrew_Rausch_CV.pdf` is hard-linked** from `resume.html` and
+  `js/sidebar.js` — keep it stable. There is no `images/` copy.
+- HTML files are CRLF, JS files are LF (`autocrlf=true`) — the "LF will be replaced by CRLF"
+  warning on `git add` is benign.
 - Apps/podcast serve from the custom-domain path (`andrewrausch.com/Dialog-podcast/...`), not
   `rauscha.github.io/...`.

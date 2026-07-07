@@ -53,6 +53,8 @@ HOME=/tmp/lohome soffice --headless -env:UserInstallation=file:///tmp/loprof \
 cp /tmp/out/Andrew_Rausch_CV.pdf Andrew_Rausch_CV.pdf
 ```
 
+**Working placeholders (`[TBC]`).** The docx doubles as Andrew's working draft, so it may contain `[TBC]` ("to be completed") scaffold lines/sections for material he still needs to gather. The docx is never served (see above), but the **PDF is** — so strip every paragraph containing `[TBC]` before exporting, then collapse any doubled blank lines. Do the strip on a throwaway copy (e.g. `/tmp/cv_pub.docx`) and convert *that* to the PDF; never hand the scaffolded docx straight to LibreOffice. Confirm the result with `"TBC" not in extracted_text`.
+
 **Post-export checks (the PDF is `pdfplumber`-readable):**
 - **Page count = 5.** A stray blank page usually means trailing empty paragraphs at the end of the docx — remove them (`el.getparent().remove(el)`).
 - **Column alignment.** Date/description lines use a tab plus a `left_indent` of `914400` EMU (1"). If one line's description doesn't line up, that paragraph is missing the indent — set `paragraph_format.left_indent = Emu(914400)` to match its siblings.

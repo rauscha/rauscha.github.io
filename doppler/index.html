@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fetal Doppler Cascade — interactive teaching tool</title>
+<meta name="description" content="Interactive schematic of the fetal Doppler cascade in placental insufficiency: drag from healthy to critical and watch umbilical-artery, middle-cerebral-artery, and ductus-venosus waveforms change.">
+<link rel="icon" href="../favicon.png">
+<style>
+:root{
+  --ink:#15181c;--paper:#f6f4ef;--line:#d9d4c9;--muted:#5c6470;--accent:#c0392b;
+  --s1:#0b6e86;--s2:#6a4c93;--s3:#c1352b;--s4:#c77d0a;--s5:#3a4a5a;
+  --sans:ui-sans-serif,"Segoe UI",Roboto,Helvetica,Arial,system-ui,sans-serif;
+  --serif:ui-serif,Georgia,"Iowan Old Style","Times New Roman",serif;
+  --mono:ui-monospace,"SFMono-Regular","Cascadia Code",Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.5;
+  -webkit-font-smoothing:antialiased;padding:0 20px}
+.wrap{max-width:940px;margin:0 auto;padding:28px 0 64px}
+.topbar{display:flex;justify-content:space-between;align-items:baseline;font-family:var(--mono);
+  font-size:12.5px;letter-spacing:.06em;color:var(--muted);text-transform:uppercase;margin-bottom:18px}
+.topbar a{color:var(--accent);text-decoration:none}
+.topbar a:hover{text-decoration:underline}
+.kicker{font-family:var(--mono);font-size:14px;letter-spacing:.16em;text-transform:uppercase;color:var(--accent);font-weight:600}
+h2{font-family:var(--serif);font-weight:700;font-size:34px;line-height:1.12;letter-spacing:-.01em;margin:6px 0 4px}
+
+/* --- Doppler lab (extracted verbatim from the pw-doppler lecture engine) --- */
+.dlab{display:flex;flex-direction:column;margin-top:16px;gap:12px}
+.dlab-panels{display:flex;flex-direction:column;gap:10px}
+.dpanel{display:flex;align-items:stretch;gap:14px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:6px 14px;min-height:118px}
+.dp-rail{flex:0 0 210px;display:flex;flex-direction:column;justify-content:center;gap:3px;border-right:1px solid var(--line);padding-right:12px}
+.dp-name{font-weight:700;font-size:16px;line-height:1.15}
+.dp-badge{font-family:var(--mono);font-size:13px;color:var(--accent);font-weight:700}
+.dp-read{font-family:var(--mono);font-size:12px;color:var(--muted)}
+.dp-plot{flex:1;min-width:0;display:flex}
+.dp-svg{width:100%;height:100%}
+.dp-base{stroke:var(--muted);stroke-width:1;stroke-dasharray:5 4}
+.dp-wave{fill:rgba(0,114,178,.10);stroke:#0072B2;stroke-width:2.5;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+.dp-zero{font-family:var(--mono);font-size:12px;fill:var(--muted)}
+.dlab-readout{font-size:18px;font-weight:600;text-align:center;min-height:24px;color:var(--ink)}
+.dlab-slider{position:relative;padding:0 2px 30px}
+.dlab-ends{display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:5px}
+.dlab-range{width:100%;accent-color:var(--accent);height:6px;cursor:pointer}
+.dlab-ticks{position:relative;height:0}
+.dp-tick{position:absolute;top:3px;transform:translateX(-50%);text-align:center;white-space:nowrap}
+.dp-tick i{display:block;width:2px;height:8px;background:var(--muted);margin:0 auto}
+.dp-tick b{display:block;font-family:var(--mono);font-size:10.5px;font-weight:600;color:var(--muted);margin-top:2px}
+
+p.note{font-size:15px;color:var(--muted);margin-top:20px}
+.cite{font-family:var(--mono);font-size:12.5px;color:var(--muted);margin-top:6px}
+.foot{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-family:var(--mono);
+  font-size:12px;color:var(--muted);letter-spacing:.04em}
+.foot a{color:var(--accent);text-decoration:none}
+.foot a:hover{text-decoration:underline}
+@media (max-width:560px){
+  .dp-rail{flex-basis:132px;padding-right:8px}
+  .dp-name{font-size:14px}
+  h2{font-size:26px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <span>Fetal Doppler · teaching tool</span>
+    <a href="https://andrewrausch.com/">andrewrausch.com &rarr;</a>
+  </div>
+
+  <div class="kicker">Interactive &middot; drag the slider</div>
+  <h2>The Doppler cascade: umbilical artery &rarr; MCA &rarr; ductus venosus</h2>
+
+  <div class="dlab" id="dlab">
+    <div class="dlab-panels">
+      <div class="dpanel" data-vessel="ua">
+        <div class="dp-rail"><div class="dp-name">Umbilical artery</div><div class="dp-badge"></div><div class="dp-read"></div></div>
+        <div class="dp-plot"><svg class="dp-svg" viewBox="0 0 1000 200" preserveAspectRatio="none" aria-hidden="true"><line class="dp-base" x1="0" y1="150" x2="1000" y2="150"/><path class="dp-wave" d=""/><text class="dp-zero" x="8" y="145">0</text></svg></div>
+      </div>
+      <div class="dpanel" data-vessel="mca">
+        <div class="dp-rail"><div class="dp-name">Middle cerebral artery</div><div class="dp-badge"></div><div class="dp-read"></div></div>
+        <div class="dp-plot"><svg class="dp-svg" viewBox="0 0 1000 200" preserveAspectRatio="none" aria-hidden="true"><line class="dp-base" x1="0" y1="150" x2="1000" y2="150"/><path class="dp-wave" d=""/><text class="dp-zero" x="8" y="145">0</text></svg></div>
+      </div>
+      <div class="dpanel" data-vessel="dv">
+        <div class="dp-rail"><div class="dp-name">Ductus venosus</div><div class="dp-badge"></div><div class="dp-read"></div></div>
+        <div class="dp-plot"><svg class="dp-svg" viewBox="0 0 1000 200" preserveAspectRatio="none" aria-hidden="true"><line class="dp-base" x1="0" y1="150" x2="1000" y2="150"/><path class="dp-wave" d=""/><text class="dp-zero" x="8" y="145">0</text></svg></div>
+      </div>
+    </div>
+    <div class="dlab-readout"></div>
+    <div class="dlab-slider">
+      <div class="dlab-ends"><span>&#9664; Healthy</span><span>Critical &#9654;</span></div>
+      <input class="dlab-range" type="range" min="0" max="100" value="25" aria-label="Fetal condition: healthy to critical">
+      <div class="dlab-ticks"><span class="dp-tick" style="left:5%"><i></i><b>Normal</b></span><span class="dp-tick" style="left:25%"><i></i><b>&uarr; S/D</b></span><span class="dp-tick" style="left:50%"><i></i><b>Absent EDF</b></span><span class="dp-tick" style="left:68%"><i></i><b>Reversed + spare</b></span><span class="dp-tick" style="left:88%"><i></i><b>DV reversal</b></span></div>
+    </div>
+  </div>
+
+  <p class="note">Schematic &mdash; idealized teaching traces, not measured velocities. Drag from healthy to critical (the slider snaps to the five checkpoint stops): umbilical-artery end-diastolic flow falls to absent then reversed, the MCA shows brain-sparing, and only late does the ductus-venosus a-wave reverse.</p>
+  <div class="cite">Cascade per ISUOG Practice Guidelines (updated) 2021</div>
+
+  <div class="foot">Extracted from the <em>Pulse-Wave Doppler in Prenatal Diagnosis</em> lecture &middot; built with academic-deck-pro &middot; <a href="https://mfm.media/">mfm.media</a></div>
+</div>
+
+<!-- doppler-model.mjs — pure physiology model (exports stripped, exposed as window.__DOP). Verbatim from the lecture engine so screen matches print. -->
+<script>
+// piecewise-linear over sorted breakpoints [[s,v],...]
+function pw(s, pts) {
+  if (s <= pts[0][0]) return pts[0][1];
+  for (let i = 1; i < pts.length; i++) {
+    if (s <= pts[i][0]) {
+      const [a, va] = pts[i - 1], [b, vb] = pts[i];
+      const t = (b - a) ? (s - a) / (b - a) : 0;
+      return va + (vb - va) * t;
+    }
+  }
+  return pts[pts.length - 1][1];
+}
+// Umbilical artery end-diastolic fraction: falls, hits 0 (absent) at s=0.50, reverses by 0.68.
+function uaDiastolicFrac(s) {
+  return pw(s, [[0, 0.42], [0.12, 0.42], [0.40, 0.10], [0.50, 0.00], [0.68, -0.30], [1, -0.35]]);
+}
+// MCA diastolic fraction: RISES with brain-sparing (PI falls); never reverses.
+function mcaDiastolicFrac(s) {
+  return pw(s, [[0, 0.18], [0.45, 0.18], [0.80, 0.55], [1, 0.55]]);
+}
+// Ductus venosus a-wave nadir: normal (forward) until ~0.65, absent ~0.83, reversed by 0.88.
+function dvAwaveNadir(s) {
+  return pw(s, [[0, 0.35], [0.65, 0.35], [0.80, 0.05], [0.83, 0.00], [1, -0.30]]);
+}
+function stageLabels(s) {
+  const du = uaDiastolicFrac(s), dm = mcaDiastolicFrac(s), da = dvAwaveNadir(s);
+  const ua = du > 0.35 ? 'Normal S/D' : du > 0.03 ? 'Elevated S/D (↓ EDV)'
+    : du >= -0.03 ? 'Absent EDF' : 'Reversed EDF';
+  const mca = dm < 0.24 ? 'Normal' : dm < 0.50 ? 'Brain-sparing (↓ PI)' : 'Marked brain-sparing';
+  const dv = da > 0.20 ? 'Normal a-wave' : da > 0.03 ? 'Reduced a-wave'
+    : da >= -0.03 ? 'Absent a-wave' : 'Reversed a-wave';
+  return { ua, mca, dv };
+}
+function readouts(s) {
+  const du = uaDiastolicFrac(s), dm = mcaDiastolicFrac(s), da = dvAwaveNadir(s);
+  const ua = du > 0.03 ? 'S/D ' + (1 / du).toFixed(1)
+    : du >= -0.03 ? 'S/D → ∞ (absent)' : 'EDF reversed';
+  const pi = 3 * (1 - dm) / (1 + 2 * dm); // schematic PI from the shape
+  const mca = 'PI ' + pi.toFixed(2);
+  const dv = da > 0.20 ? 'a-wave forward' : da > 0.03 ? 'a-wave reduced'
+    : da >= -0.03 ? 'a-wave absent' : 'a-wave reversed';
+  return { ua, mca, dv };
+}
+function clinicalReadout(s) {
+  if (s < 0.12) return 'All three vessels normal — no evidence of placental compromise.';
+  if (s < 0.40) return 'Rising umbilical-artery resistance — early placental insufficiency.';
+  if (s < 0.50) return 'Falling umbilical end-diastolic flow — established insufficiency; step up surveillance.';
+  if (s < 0.62) return 'Absent umbilical end-diastolic flow — significant placental disease.';
+  if (s < 0.80) return 'Reversed umbilical EDF with cerebral redistribution — advanced placental failure; delivery-decision territory.';
+  if (s < 0.85) return 'Reduced / absent ductus-venosus a-wave — cardiac strain; imminent-delivery territory.';
+  return 'Reversed ductus-venosus a-wave — cardiac decompensation; often within days of stillbirth.';
+}
+const checkpoints = [
+  { v: 5, label: 'Normal', short: 'Normal' },
+  { v: 25, label: 'Elevated UA S/D', short: '↑ S/D' },
+  { v: 50, label: 'Absent EDF', short: 'Absent EDF' },
+  { v: 68, label: 'Reversed EDF + brain-sparing', short: 'Reversed + spare' },
+  { v: 88, label: 'DV a-wave reversal', short: 'DV reversal' },
+];
+// geom = { w, base, amp, beats }. Positive velocity draws UP (base - v*amp).
+function waveformPath(vessel, s, geom) {
+  const { w, base, amp, beats = 6 } = geom;
+  const du = uaDiastolicFrac(s), dm = mcaDiastolicFrac(s), da = dvAwaveNadir(s);
+  const ease = (t, v0, v1) => v0 + (v1 - v0) * (1 - Math.cos(t * Math.PI)) / 2;
+  function vel(phi) {
+    if (vessel === 'ua') {
+      const pk = 0.13;
+      if (phi < pk) return ease(phi / pk, du, 1);
+      return ease((phi - pk) / (1 - pk), 1, du);
+    }
+    if (vessel === 'mca') {
+      const pk = 0.10, infl = 0.28, vInfl = dm + 0.34 * (1 - dm);
+      if (phi < pk) return ease(phi / pk, dm, 1);
+      if (phi < infl) return ease((phi - pk) / (infl - pk), 1, vInfl);
+      return ease((phi - infl) / (1 - infl), vInfl, dm);
+    }
+    const cp = [[0.12, 1.00], [0.42, 0.48], [0.72, 0.82], [0.95, da], [1.12, 1.00]];
+    let p = phi < 0.12 ? phi + 1 : phi;
+    let k = 0;
+    for (let j = 0; j < cp.length - 1; j++) { if (p >= cp[j][0] && p <= cp[j + 1][0]) { k = j; break; } }
+    const [pa, va] = cp[k], [pb, vb] = cp[k + 1];
+    const t = (pb - pa) ? (p - pa) / (pb - pa) : 0;
+    return ease(t, va, vb);
+  }
+  const N = Math.max(300, Math.round(70 * beats));
+  let d = 'M 0 ' + base.toFixed(1);
+  for (let i = 0; i <= N; i++) {
+    const x = (i / N) * w;
+    const phi = ((i / N) * beats) % 1;
+    const y = base - vel(phi) * amp;
+    d += ' L ' + x.toFixed(1) + ' ' + y.toFixed(1);
+  }
+  d += ' L ' + w.toFixed(1) + ' ' + base.toFixed(1) + ' Z';
+  return d;
+}
+window.__DOP = { uaDiastolicFrac, mcaDiastolicFrac, dvAwaveNadir, stageLabels, readouts, clinicalReadout, checkpoints, waveformPath };
+</script>
+
+<!-- wiring — the buildDopplerLab() from the deck engine, run standalone on load -->
+<script>
+(function () {
+  function buildDopplerLab(sl) {
+    var D = window.__DOP; if (!D) return;
+    var range = sl.querySelector('.dlab-range'); if (!range) return;
+    var panels = [].slice.call(sl.querySelectorAll('.dpanel'));
+    var readout = sl.querySelector('.dlab-readout');
+    var geom = { w: 1000, base: 150, amp: 100, beats: 6 }, ticks = D.checkpoints;
+    function draw(val) {
+      var s = val / 100, labs = D.stageLabels(s), reads = D.readouts(s);
+      panels.forEach(function (p) {
+        var k = p.dataset.vessel;
+        p.querySelector('.dp-badge').textContent = labs[k];
+        p.querySelector('.dp-read').textContent = reads[k];
+        p.querySelector('.dp-wave').setAttribute('d', D.waveformPath(k, s, geom));
+      });
+      readout.textContent = D.clinicalReadout(s);
+    }
+    range.addEventListener('input', function () {
+      var v = +range.value;
+      for (var i = 0; i < ticks.length; i++) { if (Math.abs(v - ticks[i].v) <= 3) { v = ticks[i].v; range.value = v; break; } }
+      draw(v);
+    });
+    // click a checkpoint tick to jump to it
+    [].forEach.call(sl.querySelectorAll('.dp-tick'), function (tick, idx) {
+      tick.style.cursor = 'pointer';
+      tick.addEventListener('click', function () {
+        if (ticks[idx]) { range.value = ticks[idx].v; draw(ticks[idx].v); }
+      });
+    });
+    draw(+range.value);
+  }
+  var el = document.getElementById('dlab');
+  if (el) buildDopplerLab(el);
+})();
+</script>
+</body>
+</html>

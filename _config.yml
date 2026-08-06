@@ -6,3 +6,4 @@
 # generated Andrew_Rausch_CV.pdf is served. Edit the .docx, re-export the PDF.
 exclude:
   - Andrew_Rausch_CV.docx
+  - docs/

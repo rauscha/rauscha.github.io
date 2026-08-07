@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build a styled .docx and .pdf academic CV from a Markdown source.
-Vendored from https://github.com/rauscha/md-cv — sync manually on material changes.
 
+Vendored from https://github.com/rauscha/md-cv — sync manually on material changes.
 Canonical home: https://github.com/rauscha/md-cv
 Usage: python build_cv.py path/to/CV.md [-o OUTDIR]
 
@@ -276,6 +276,7 @@ def _export_via_soffice(docx_path: Path, pdf_path: Path) -> bool:
     if not soffice:
         for candidate in (
             Path(r"C:\Program Files\LibreOffice\program\soffice.exe"),
+            Path("/Applications/LibreOffice.app/Contents/MacOS/soffice"),
             Path("/usr/bin/soffice"),
         ):
             if candidate.exists():

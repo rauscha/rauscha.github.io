@@ -39,8 +39,12 @@ The CV is maintained as Markdown and built into both served formats:
   `- sub-bullet` lines (indented into the 1.15" description column with no bullet glyph,
   used for the activities listed under a heading in Teaching Activities and Clinical
   Activities), and `**bold**`/`*italic*` inline. A blank line between entries renders as
-  vertical spacing (used between publication citations). Lines containing `[TBC]` are
-  working scaffold: kept in the source, automatically stripped from output.
+  vertical spacing (used between publication citations). `[TBC]` marks working
+  scaffold, kept in the source but never reaching the served PDF: on a plain line it
+  strips just that line; on a `##`/`###` heading (e.g. `## GRANTS & RESEARCH SUPPORT
+  [TBC]`) it suppresses the whole section/subsection — a safe place to accumulate real,
+  dated entries before the section is ready to publish. Remove `[TBC]` from the heading
+  once it should render.
 - **`cv/build_cv.py`** — vendored build script (canonical copy:
   github.com/rauscha/md-cv — sync manually if that repo's script materially changes).
 - **`Andrew_Rausch_CV.docx` / `Andrew_Rausch_CV.pdf`** — GENERATED at the repo root;

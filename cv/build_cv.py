@@ -6,10 +6,15 @@ Canonical home: https://github.com/rauscha/md-cv
 Usage: python build_cv.py path/to/CV.md [-o OUTDIR]
 
 Format: `# Name` then contact lines; `## SECTION`; `### (a) Subsection`;
-dated entries as `2018-2021 | description` (must start with a 4-digit year);
-`- text` is a sub-bullet indented into the description column;
-everything else is a plain paragraph. `**bold**` / `*italic*` inline.
-Lines containing [TBC] stay in the source but are stripped from output.
+dated entries as `2018-2021 | description` (must start with a 4-digit year, or
+the word `Current` for an ongoing role); `- text` is a sub-bullet indented into
+the description column; a blank line before an entry adds extra vertical space
+after the preceding item (a gap); everything else is a plain paragraph.
+`**bold**` / `*italic*` inline.
+`[TBC]` on a normal line strips just that line from the output. `[TBC]` on a
+`##`/`###` header instead marks the whole section/subsection as a scaffold:
+the header and everything under it stay in the source but are entirely
+suppressed from the rendered output until `[TBC]` is removed from the header.
 """
 from __future__ import annotations
 
@@ -70,12 +75,14 @@ class Bullet:
 class Subsection:
     title: str
     items: list = field(default_factory=list)
+    scaffold: bool = False
 
 
 @dataclass
 class Section:
     title: str
     items: list = field(default_factory=list)
+    scaffold: bool = False
 
 
 @dataclass
@@ -100,18 +107,20 @@ def parse_cv(text: str) -> CV:
         if not line:
             saw_blank = True
             continue
-        if "[TBC]" in line:
+        is_header = line.startswith("### ") or line.startswith("## ") or line.startswith("# ")
+        if "[TBC]" in line and not is_header:
+            # Non-header [TBC] lines are just dropped from the output.
             continue
         if line.startswith("### "):
             if section is None:
                 raise ValueError(
                     f"subsection before any '## SECTION' header: {line!r}"
                 )
-            sub = Subsection(line[4:].strip())
+            sub = Subsection(line[4:].strip(), scaffold="[TBC]" in line)
             section.items.append(sub)
             saw_blank = False
         elif line.startswith("## "):
-            section = Section(line[3:].strip())
+            section = Section(line[3:].strip(), scaffold="[TBC]" in line)
             sub = None
             sections.append(section)
             saw_blank = False
@@ -142,10 +151,12 @@ def parse_cv(text: str) -> CV:
     return CV(name, contact, sections)
 
 
+# Lookarounds enforce CommonMark-style flanking (no adjacent word char or `*`
+# just outside the delimiters), so co-author asterisks like `Doe J*,` stay literal.
 TOKEN_RE = re.compile(r"(\*\*[^*]+\*\*|(?<![\w*])\*[^*\s][^*]*\*(?![\w*]))")
 
 
-def tokenize_runs(text: str) -> list:
+def tokenize_runs(text: str) -> list[tuple[str, bool, bool]]:
     out = []
     for part in TOKEN_RE.split(text):
         if not part:
@@ -170,6 +181,8 @@ def _add_runs(p, text: str):
 def _render_items(doc, items):
     for item in items:
         if isinstance(item, Subsection):
+            if item.scaffold:
+                continue
             p = doc.add_paragraph()
             p.paragraph_format.space_before = SPACE_BEFORE_SUBSECTION
             p.add_run(item.title).bold = True
@@ -221,6 +234,8 @@ def render_docx(cv: CV, path: Path) -> None:
         _add_runs(doc.add_paragraph(), line)
 
     for section in cv.sections:
+        if section.scaffold:
+            continue
         p = doc.add_paragraph()
         p.paragraph_format.space_before = SPACE_BEFORE_SECTION
         p.paragraph_format.space_after = SPACE_AFTER_SECTION

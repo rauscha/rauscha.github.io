@@ -1,9 +1,9 @@
 # GitHub Pages (Jekyll) configuration.
 #
 # The site is plain static HTML/CSS/JS — Jekyll simply copies it through.
-# This file exists only to keep the editable CV source out of the published
-# site: Andrew_Rausch_CV.docx is the source of truth for the CV, but only the
-# generated Andrew_Rausch_CV.pdf is served. Edit the .docx, re-export the PDF.
+# Keeps non-site files out of the published pages: the CV source (cv/) and
+# generated .docx are excluded; only Andrew_Rausch_CV.pdf is served.
 exclude:
   - Andrew_Rausch_CV.docx
   - docs/
+  - cv/

@@ -51,9 +51,16 @@ python cv/build_cv.py cv/Andrew_Rausch_CV.md -o .
 ```
 
 The build regenerates both files, exports the PDF via Word (LibreOffice fallback on
-machines without Word), asserts no `[TBC]` leaked, reports the page count (expect ~5),
+machines without Word), asserts no `[TBC]` leaked, reports the page count (expect 6),
 and prints a text diff against the previous PDF — review it to confirm only the
 intended lines changed. An empty lettered subsection renders as `None` automatically.
+
+**Content conventions (apply when editing the Markdown):** en-dash, no spaces, for
+numeric ranges (`2018–2021`, `2021–present`, page ranges); spaced en-dash ` – ` for
+"X – Y" separators; no em-dashes, no spaced hyphens; phone numbers keep plain hyphens.
+When ingesting a future docx from Andrew, beware `run / hyperlink / run` paragraphs
+(e.g. the APAOG entry): python-docx's `paragraph.runs` skips hyperlinks — verify URLs
+survived extraction.
 
 **When a publication changes** (new paper, in-press → published), update BOTH
 `publications.html` and `cv/Andrew_Rausch_CV.md`, then rebuild. Publications live under

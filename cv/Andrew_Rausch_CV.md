@@ -10,20 +10,20 @@ Cell: 612-309-4222
 Email: ARausch@bsd.uchicago.edu
 
 ## ACADEMIC APPOINTMENTS
-2018-2021 | Clinical Instructor, Obstetrics & Gynecology, Hofstra University Zucker School of Medicine
-2021-present | Assistant Professor, Obstetrics & Gynecology, University of Chicago
+2018–2021 | Clinical Instructor, Obstetrics & Gynecology, Hofstra University Zucker School of Medicine
+2021–present | Assistant Professor, Obstetrics & Gynecology, University of Chicago
 
 ## ACADEMIC TRAINING
-2004-2008 | BA, Physics & Astronomy, Carleton College, Northfield, MN
-2010-2014 | MD, Tufts University Sackler School of Medicine, Boston, MA
-2014-2018 | Residency, Stamford Hospital/Columbia University, Stamford, CT
-2018-2021 | Fellowship, Maternal-Fetal Medicine, Northwell Health/Hofstra University Zucker School of Medicine, Manhasset, NY
+2004–2008 | BA, Physics & Astronomy, Carleton College, Northfield, MN
+2010–2014 | MD, Tufts University Sackler School of Medicine, Boston, MA
+2014–2018 | Residency, Stamford Hospital/Columbia University, Stamford, CT
+2018–2021 | Fellowship, Maternal-Fetal Medicine, Northwell Health/Hofstra University Zucker School of Medicine, Manhasset, NY
 
 ## BOARD CERTIFICATION & LICENSURE
-2018-2022 | Medical License, New York
-2021-present | Medical License, Illinois
-2021-present | Board Certification, American Board of Obstetricians & Gynecologists
-2026-present | Subspecialty Board Certification, American Board of Obstetricians & Gynecologists, Maternal-Fetal Medicine
+2018–2022 | Medical License, New York
+2021–present | Medical License, Illinois
+2021–present | Board Certification, American Board of Obstetricians & Gynecologists
+2026–present | Subspecialty Board Certification, American Board of Obstetricians & Gynecologists, Maternal-Fetal Medicine
 
 ## HONORS & AWARDS
 2024 | National Faculty Award for Excellence in Resident Education, OB/GYN residency, University of Chicago & Endeavor Health
@@ -40,40 +40,54 @@ Email: ARausch@bsd.uchicago.edu
 2020 | Dept of Obstetrics & Gynecology Grand Rounds. “Artificial Intelligence in Obstetrics” Stamford Hospital, Stamford, CT
 2021 | Department of Obstetrics & Gynecology Grand Rounds. “Artificial Intelligence in Obstetrics” University of Chicago, Chicago, IL
 2023 | ENDORAMA – Section of Endocrinology case presentations – University of Chicago
-2024 | Association of Physician Associates in Obstetrics and Gynecology Webinar Education Series - Preterm Labor: Diagnosis, Management, and Prevention
-2025 | SSHCO Maternal Health Education Series - Soft Markers in Pregnancy
-2026 | University of Chicago Medicine Webinars - Preconception Through Post-partum: Updates in IBD Management and a Multidisciplinary Care Approach
-2026 | The Pregnancy Meeting - Scientific Forum: Ultrasound - The Utility of the First Trimester Ultrasound in Detecting Congenital Anomalies and Placental Abnormalities
-2026 | Greater General Surgery Grand Rounds, University of Chicago - Managing Needs: Fellow-Resident Interactions and Optimizing the Learning Environment for All
+2024 | Association of Physician Associates in Obstetrics and Gynecology Webinar Education Series – Preterm Labor: Diagnosis, Management, and Prevention
+2025 | SSHCO Maternal Health Education Series – Soft Markers in Pregnancy
+2026 | University of Chicago Medicine Webinars – Preconception Through Post-partum: Updates in IBD Management and a Multidisciplinary Care Approach
+2026 | The Pregnancy Meeting – Scientific Forum: Ultrasound – The Utility of the First Trimester Ultrasound in Detecting Congenital Anomalies and Placental Abnormalities
+2026 | Greater General Surgery Grand Rounds, University of Chicago – Managing Needs: Fellow-Resident Interactions and Optimizing the Learning Environment for All
 
-## TEACHING ACTIVITIES [TBC]
-*[TBC] Enumerate recurring didactics and lectures (resident / fellow / medical-student) and simulation sessions — to be completed; consolidate with Invited Talks so each talk appears once with co-presenters.*
+## TEACHING ACTIVITIES
+Ob/Gyn Residency, University of Chicago
+- Designed and implemented a novel curriculum for resident training in obstetric and gynecologic ultrasound
+- Annual didactics: Embryology and Teratology; Preterm Birth – Diagnosis and Prevention; Fetal Growth Restriction and Antenatal Monitoring; Alloimmunization
+
+Maternal-Fetal Medicine Fellowship, University of Chicago
+- Designed the fellowship ultrasound education curriculum, including a novel curriculum in advanced obstetric ultrasound
+- Annual didactics: Ultrasound Basics; Fetal CNS Ultrasound; Pulse Wave Doppler in Fetal Ultrasound; First Trimester Detailed Anatomy; Fundamentals of Needle Guided Intervention (FUNGI) simulation
+
+Neonatology Fellowship, University of Chicago
+- Didactics: Maternal-Fetal Medicine Topics in NICU Care
 
 ## INSTITUTIONAL & PROGRAM POSITIONS
-2026-present | Director of Ultrasound, Department of Obstetrics & Gynecology, University of Chicago
-2025-present | MFM Lead, Pregnancy and Preconception in IBD clinic, University of Chicago
+2026–present | Director of Ultrasound, Department of Obstetrics & Gynecology, University of Chicago
+2026–present | Rotation Director, Ultrasound, Department of Obstetrics & Gynecology, University of Chicago
+2025–present | MFM Lead, Pregnancy and Preconception in IBD clinic, University of Chicago
 *[TBC] Upcoming: MFM Lead, Cancer in Pregnancy Center, University of Chicago (not yet started).*
-2024-present | FBC Policy Committee, University of Chicago
-2022-present | Sub-internship lead, Antepartum and Birth Rooms Sub-I University of Chicago
-2026-present | Associate Program Director, MFM Fellowship, University of Chicago
-2022-2026 | Site Director, MFM Fellowship, University of Chicago
-2022-present | Med Ed Champion (MFM), OB/Gyn residency, University of Chicago
-2021-present | Resident Recruitment Committee, University of Chicago
-2021-present | MFM Fellow Recruitment Committee, University of Chicago
-2021-present | Clinical Competency Committee, Ob/Gyn residency, University of Chicago
-2021-present | Clinical Competency Committee, MFM Fellowship, University of Chicago
-2021-present | Program Evaluation Committee, Ob/Gyn residency, University of Chicago
-2021-present | Program Evaluation Committee, MFM Fellowship, University of Chicago
-2019-2021 | Program Evaluation Committee, Fellow Representative, MFM Fellowship, Northwell Health/Hofstra University
+2024–present | FBC Policy Committee, University of Chicago
+2022–present | Sub-internship lead, Antepartum and Birth Rooms Sub-I University of Chicago
+2026–present | Associate Program Director, MFM Fellowship, University of Chicago
+2022–2026 | Site Director, MFM Fellowship, University of Chicago
+2022–present | Med Ed Champion (MFM), OB/Gyn residency, University of Chicago
+2021–present | Resident Recruitment Committee, University of Chicago
+2021–present | MFM Fellow Recruitment Committee, University of Chicago
+2021–present | Clinical Competency Committee, Ob/Gyn residency, University of Chicago
+2021–present | Clinical Competency Committee, MFM Fellowship, University of Chicago
+2021–present | Program Evaluation Committee, Ob/Gyn residency, University of Chicago
+2021–present | Program Evaluation Committee, MFM Fellowship, University of Chicago
+2019–2021 | Program Evaluation Committee, Fellow Representative, MFM Fellowship, Northwell Health/Hofstra University
 
-## CLINICAL ACTIVITIES & PROGRAM DEVELOPMENT [TBC]
-*[TBC] Official program-development activities as Director of Ultrasound — to be completed (first-trimester / early-anatomy program + AIUM accreditation; targeted transabdominal & transvaginal neurosonography; diagnostic & dye amnioinfusion protocols; Ingalls Memorial expansion / transfer from Radiology; scan-volume metrics). Confirm official program names.*
+## CLINICAL ACTIVITIES & PROGRAM DEVELOPMENT
+2026–present | Director of Ultrasound, Department of Obstetrics & Gynecology, University of Chicago. Assumed day-to-day operational leadership of the ultrasound unit in January 2026 following the departure of the prior director; formally appointed Director of Ultrasound in February 2026. Unit volume increased 7.3% over the first six months of leadership compared with the preceding six months (22,993 to 24,680 examinations); second-quarter 2026 volume reached 13,109 examinations, a 14.0% increase over the average of the two pre-transition quarters.
+Program development
+- First-trimester detailed anatomy program, including AIUM practice accreditation
+- Targeted transabdominal and transvaginal fetal neurosonography
+- Expansion of obstetric ultrasound services at Ingalls Memorial Hospital, including transition of obstetric imaging from Radiology
 
 ## PROFESSIONAL MEMBERSHIPS & ASSOCIATIONS
 Current | American College of Obstetricians and Gynecologists – Fellow
-Current | Society for Maternal-Fetal Medicine - Member
+Current | Society for Maternal-Fetal Medicine – Member
 Current | American Institute of Ultrasound in Medicine – Member
-Current | International Society of Ultrasound in Obstetrics and Gynecology - Member
+Current | International Society of Ultrasound in Obstetrics and Gynecology – Member
 Current | Massachusetts Medical Society – Member
 Current | Society for Pediatric Radiology – Allied Member
 Current | International Society for Prenatal Diagnosis – Member
@@ -81,12 +95,13 @@ Current | Ad hoc Reviewer for Ultrasound in Obstetrics and Gynecology
 2023 | Invited Reviewer for Institute for Translational Medicine Grant, University of Chicago
 
 ## MENTEES
-Alexandra Diaz-Barbe - Pritzker School of Medicine medical student - A low-cost, low-fidelity model of fetal intracardiac intervention
-Christy Evans - University of Chicago/Endeavor Ob/Gyn resident - A cerclage simulation model
+Alexandra Diaz-Barbe – Pritzker School of Medicine medical student – A low-cost, low-fidelity model of fetal intracardiac intervention
+Christy Evans – University of Chicago/Endeavor Ob/Gyn resident – Exam Indicated Cerclage Low Fidelity Training Model
+Leah Hefelfinger – University of Chicago/Endeavor Ob/Gyn resident (PGY-3) – Ultrasound curriculum survey for Ob/Gyn residency programs
 
 ## GRANTS & RESEARCH SUPPORT [TBC]
-*[TBC] Anticipated: Co-Principal Investigator, R01 (0.1 FTE) — multimodal ovarian cancer characterization (MRI, ultrasound, proteomics, EHR) for differentiation, prognosis, and diagnosis of recurrence. Add status (submitted / scored / awarded), grant number, and contact PI.*
-*[TBC] Industry research collaborations — two collaborations with GE HealthCare providing in-kind ultrasound equipment (two loaner systems) to the unit. Add official agreement names/dates; verify consistency with institutional COI disclosure.*
+*[TBC] Anticipated: Co-Principal Investigator, R01 (0.1 FTE) – multimodal ovarian cancer characterization (MRI, ultrasound, proteomics, EHR) for differentiation, prognosis, and diagnosis of recurrence. Add status (submitted / scored / awarded), grant number, and contact PI.*
+*[TBC] Industry research collaborations – two collaborations with GE HealthCare providing in-kind ultrasound equipment (two loaner systems) to the unit. Add official agreement names/dates; verify consistency with institutional COI disclosure.*
 
 ## Bibliography
 
@@ -98,7 +113,7 @@ Tolbert B, Chandrasekaran S, Manthena V, et al. “Interventions and Perinatal O
 
 Ploran EJ, Comfort L, Rausch A, Snellings JT, & Rochelson B. Perceptual distortions during simultaneous continuous monitoring of fetal and maternal heart rate in laboring patients. The Journal of Maternal-Fetal & Neonatal Medicine, 2026
 
-Morgan JC, Rios J, Kahl T, Prasad M, Rausch A, Longman R, Mehra S, Shaaban A, Premkumar A. Management of monochorionic diamniotic twin gestation affected by Type-II selective fetal growth restriction: cost-effectiveness analysis. Ultrasound Obstet Gynecol. 2025 
+Morgan JC, Rios J, Kahl T, Prasad M, Rausch A, Longman R, Mehra S, Shaaban A, Premkumar A. Management of monochorionic diamniotic twin gestation affected by Type-II selective fetal growth restriction: cost-effectiveness analysis. Ultrasound Obstet Gynecol. 2025
 
 Burns LP, Potchileev S, Mueller A, Azzi M, Premkumar A, Peterson J, Rausch A, Gonzalez M, Silasi M, Karumanchi SA, Thadhani R, Rana S. Real-world evidence for the utility of serum soluble fms-like tyrosine kinase 1/placental growth factor test for routine clinical evaluation of hospitalized women with hypertensive disorders of pregnancy. Am J Obstet Gynecol. 2025
 
@@ -108,15 +123,15 @@ Blitz MJ, Gerber RP, Gulersen M, Shan W, Rausch AC, Prasannan L, Meirowitz N, Ro
 
 Blitz MJ, Rochelson B, Rausch AC, Solmonovich R, Shan W, Combs A, Nimaroff M. Universal testing for coronavirus disease 2019 in pregnant women admitted for delivery: prevalence of peripartum infection and rate of asymptomatic carriers at four New York hospitals within an integrated healthcare system. American Journal of Obstetrics & Gynecology MFM. 2020;2(3):100169.
 
-Wieland D, Burke M, Rausch A, Bowman D, Bobby P. Impact of a Quality Improvement Initiative on the Episiotomy Rate at a Community Hospital. J Repro Med. 2017;62(6):615-620.
+Wieland D, Burke M, Rausch A, Bowman D, Bobby P. Impact of a Quality Improvement Initiative on the Episiotomy Rate at a Community Hospital. J Repro Med. 2017;62(6):615–620.
 
-Ohtani T, Bouix S, Hosokawa T, Saito Y, Eckbo R, Ballinger T, Rausch AC, Melonakos E, Kubicke M. Abnormalities in white matter connections between orbitofrontal cortex and anterior cingulate cortex and their associations with negative symptoms in schizophrenia: A DTI study. Schizophrenia Research. 2014;157(1-3):190-197.
+Ohtani T, Bouix S, Hosokawa T, Saito Y, Eckbo R, Ballinger T, Rausch AC, Melonakos E, Kubicke M. Abnormalities in white matter connections between orbitofrontal cortex and anterior cingulate cortex and their associations with negative symptoms in schizophrenia: A DTI study. Schizophrenia Research. 2014;157(1–3):190–197.
 
-Rao M, Concannon TW, Iovin R, Yu W, Chan J, Lypas G, Terasawa T, Gaylor J, Kong L, Rausch AC, Lau J, Kitsios G. Identification of topics for comparative effectiveness systematic reviews in the field of cancer imaging. Journal of Comparative Effectiveness Research. 2013;2(5):483-495.
+Rao M, Concannon TW, Iovin R, Yu W, Chan J, Lypas G, Terasawa T, Gaylor J, Kong L, Rausch AC, Lau J, Kitsios G. Identification of topics for comparative effectiveness systematic reviews in the field of cancer imaging. Journal of Comparative Effectiveness Research. 2013;2(5):483–495.
 
-Whitford TJ, Savadjiev P, Kubicki M, O’Donnell L, Terry D, Bouix S, Westin CF, Schneiderman J, Bobrow L, Rausch AC, Niznikiewicz M, Nestor P, Pantelis C, Wood S, McCarley R, Shenton M. Fiber geometry in the corpus callosum in schizophrenia: Evidence for transcallosal misconnection. Schizophrenia Research. 2011;132(1):69-74.
+Whitford TJ, Savadjiev P, Kubicki M, O’Donnell L, Terry D, Bouix S, Westin CF, Schneiderman J, Bobrow L, Rausch AC, Niznikiewicz M, Nestor P, Pantelis C, Wood S, McCarley R, Shenton M. Fiber geometry in the corpus callosum in schizophrenia: Evidence for transcallosal misconnection. Schizophrenia Research. 2011;132(1):69–74.
 
-Whitford TJ, Mathalon DH, Shenton ME, Roach BJ, Bammer R, Adcock RA, Bouix S, Kubicki M, De Siebenthal J, Rausch AC, Schneiderman J, Ford JM. Electrophysiological and diffusion tensor imaging evidence of delayed corollary discharges in patients with schizophrenia. Psychol Med. 2011;41(5):959-969.
+Whitford TJ, Mathalon DH, Shenton ME, Roach BJ, Bammer R, Adcock RA, Bouix S, Kubicki M, De Siebenthal J, Rausch AC, Schneiderman J, Ford JM. Electrophysiological and diffusion tensor imaging evidence of delayed corollary discharges in patients with schizophrenia. Psychol Med. 2011;41(5):959–969.
 
 ### (b) Peer-reviewed works in non-traditional outlets
 ### (c) Peer-reviewed works accepted or in press
@@ -124,7 +139,7 @@ Whitford TJ, Mathalon DH, Shenton ME, Roach BJ, Bammer R, Adcock RA, Bouix S, Ku
 ### (e) Books
 
 ### (f) Book chapters
-Meirowitz N, Sharma R, Rausch AC. Antenatal care for postbariatric women, in Mahmood T, Arulkumaran S & Chervenak FA (2nd ed) Obesity and Obstetrics. pp 105-115. 2020
+Meirowitz N, Sharma R, Rausch AC. Antenatal care for postbariatric women, in Mahmood T, Arulkumaran S & Chervenak FA (2nd ed) Obesity and Obstetrics. pp 105–115. 2020
 
 Rausch AC, Longman RE. CHARGE Syndrome, in Copel J, D’Alton ME, Feltovich H, et al. Obstetric Imaging: Fetal Diagnosis and Care, 3rd Ed. In press.
 
@@ -134,19 +149,20 @@ Rausch AC, Longman RE. Neu-Laxova Syndrome, in Copel J, D’Alton ME, Feltovich 
 
 ### (g) Other works
 Rausch AC, Segal O, Speicher A, Dimijian D, Rochelson B. Fetal weight estimation using neural networks. 2020 AIUM Annual Meeting. – Invited for oral presentation but not given due to COVID-19 related cancellation.
-*[TBC] Enumerate all national-meeting abstracts — ISUOG, APGO (simulation), ACOG, SMFM (authors, title, meeting, year, oral / poster).*
+
+Boll ME, Chandrasekaran S, Sohail S, Rausch AC, Premkumar A. Relationship between placental efficiency score and adverse neonatal outcomes in pregnancies with fetal growth restriction. SMFM 2026 Global Congress, Utrecht, Netherlands. October 2026. Poster presentation.
+
+Burns LP, Evans C, Rausch AC. Exam Indicated Cerclage Low Fidelity Training Model. ABOG Simulation Summit. 2026.
 
 Mills K, Rausch AC. Managing Needs: Fellow-Resident Interactions and Optimizing the Learning Environment for All. Greater General Surgery Grand Rounds, University of Chicago. Feb 25, 2026.
 
 Rausch AC. Preterm Labor: Diagnosis, Management, and Prevention. On-demand Webinar, Association of Physician Associates in Obstetrics and Gynecology. December 2024. Available online at https://apaog.org/webinars
 
-Rausch AC, Dalal S, Kellar A. Preconception Through Postpartum: Updates in IBD Management and a Multidisciplinary Care Approach. February 2026. 
+Rausch AC, Dalal S, Kellar A. Preconception Through Postpartum: Updates in IBD Management and a Multidisciplinary Care Approach. February 2026.
 
 ### (h) Clinical trials ongoing, unpublished
-GOOD - outcomes in Gastroschisis trial
+Quantitative Ultrasound Biomarkers for Gynecologic and Obstetric Imaging Across the Reproductive Lifespan, Heather Whitney PhD PI – Andrew C Rausch, co-I, 0.1 FTE
 
-Quantitative Ultrasound Biomarkers for Gynecologic and Obstetric Imaging Across the Reproductive Lifespan, Heather Whitney PhD PI - Andrew Rausch, co-I, 0.1 FTE
-*[TBC] Add: NATAL study — co-investigator (unfunded; confirm official title / PI); INCIP registry (planned); confirm GOOD (Gastroschisis) registry entry above.*
+NATAL study, Ashish Premkumar MD PhD PI – Andrew C Rausch, co-I (unfunded)
 
 ### (i) Works in review, preparation, etc.
-*[TBC] In preparation: simulation study (official title / abstract TBD); ultrasound curriculum abstract (APGO, senior author).*

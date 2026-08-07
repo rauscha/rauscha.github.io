@@ -7,6 +7,7 @@ Usage: python build_cv.py path/to/CV.md [-o OUTDIR]
 
 Format: `# Name` then contact lines; `## SECTION`; `### (a) Subsection`;
 dated entries as `2018-2021 | description` (must start with a 4-digit year);
+`- text` is a sub-bullet indented into the description column;
 everything else is a plain paragraph. `**bold**` / `*italic*` inline.
 Lines containing [TBC] stay in the source but are stripped from output.
 """
@@ -23,7 +24,7 @@ from pathlib import Path
 
 from docx import Document
 from docx.enum.text import WD_TAB_ALIGNMENT
-from docx.shared import Emu, Pt
+from docx.shared import Inches, Pt
 
 # ---------------------------------------------------------------------------
 # STYLE CONSTANTS — the entire visual design lives here. "Light refresh" =
@@ -32,7 +33,10 @@ from docx.shared import Emu, Pt
 FONT_NAME = "Calibri"
 BODY_SIZE = Pt(11)
 NAME_SIZE = Pt(16)
-INDENT = Emu(914400)            # 1" hanging indent + tab stop for dated entries
+INDENT = Inches(1.15)       # description column: hanging indent + tab stop for dated
+                            # entries, plain left indent for sub-bullets
+BULLET_PREFIX = ""          # sub-bullets sit in the description column with no glyph
+SIDE_MARGIN = Inches(1.0)   # python-docx's default template ships 1.25"; academic CVs use 1"
 SPACE_BEFORE_PARA = Pt(0)
 SPACE_BEFORE_SECTION = Pt(12)
 SPACE_AFTER_SECTION = Pt(4)
@@ -50,6 +54,14 @@ class Entry:
 
 @dataclass
 class Para:
+    text: str
+    gap: bool = False
+
+
+@dataclass
+class Bullet:
+    """A `- ` sub-bullet: indented into the description column, no hanging indent."""
+
     text: str
     gap: bool = False
 
@@ -108,7 +120,12 @@ def parse_cv(text: str) -> CV:
             saw_blank = False
         else:
             m = DATE_ENTRY_RE.match(line)
-            item = Entry(m.group(1).strip(), m.group(2).strip()) if m else Para(line)
+            if m:
+                item = Entry(m.group(1).strip(), m.group(2).strip())
+            elif line.startswith("- "):
+                item = Bullet(line[2:].strip())
+            else:
+                item = Para(line)
             if sub is not None:
                 target = sub.items
             elif section is not None:
@@ -170,6 +187,13 @@ def _render_items(doc, items):
             _add_runs(p, item.text)
             if item.gap:
                 pf.space_after = SPACE_GAP
+        elif isinstance(item, Bullet):
+            p = doc.add_paragraph()
+            pf = p.paragraph_format
+            pf.left_indent = INDENT
+            _add_runs(p, BULLET_PREFIX + item.text)
+            if item.gap:
+                pf.space_after = SPACE_GAP
         else:
             p = doc.add_paragraph()
             _add_runs(p, item.text)
@@ -179,6 +203,9 @@ def _render_items(doc, items):
 
 def render_docx(cv: CV, path: Path) -> None:
     doc = Document()
+    for section in doc.sections:
+        section.left_margin = SIDE_MARGIN
+        section.right_margin = SIDE_MARGIN
     normal = doc.styles["Normal"]
     normal.font.name = FONT_NAME
     normal.font.size = BODY_SIZE

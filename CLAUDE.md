@@ -35,10 +35,12 @@ The CV is maintained as Markdown and built into both served formats:
 
 - **`cv/Andrew_Rausch_CV.md`** — the **source of truth**. Plain Markdown: `## SECTION`,
   `### (a) Subsection`, dated entries as `2018-2021 | description` (must start with a
-  4-digit year, or `Current` in place of a year — e.g. `Current | Society - Member`), and
-  `**bold**`/`*italic*` inline. A blank line between entries renders as vertical spacing
-  (used between publication citations). Lines containing `[TBC]` are working scaffold: kept
-  in the source, automatically stripped from output.
+  4-digit year, or `Current` in place of a year — e.g. `Current | Society - Member`),
+  `- sub-bullet` lines (indented into the 1.15" description column with no bullet glyph,
+  used for the activities listed under a heading in Teaching Activities and Clinical
+  Activities), and `**bold**`/`*italic*` inline. A blank line between entries renders as
+  vertical spacing (used between publication citations). Lines containing `[TBC]` are
+  working scaffold: kept in the source, automatically stripped from output.
 - **`cv/build_cv.py`** — vendored build script (canonical copy:
   github.com/rauscha/md-cv — sync manually if that repo's script materially changes).
 - **`Andrew_Rausch_CV.docx` / `Andrew_Rausch_CV.pdf`** — GENERATED at the repo root;

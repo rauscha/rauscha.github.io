@@ -47,6 +47,9 @@ The CV is maintained as Markdown and built into both served formats:
   once it should render.
 - **`cv/build_cv.py`** — vendored build script (canonical copy:
   github.com/rauscha/md-cv — sync manually if that repo's script materially changes).
+  The same converter also runs as a web drop-box at **cv.mfm.media** for colleagues
+  (no local install; deployed from the `C:\mfm.media` project's Cloud Run converter —
+  see that repo for the service).
 - **`Andrew_Rausch_CV.docx` / `Andrew_Rausch_CV.pdf`** — GENERATED at the repo root;
   never hand-edit either. Only the PDF is served (`_config.yml` excludes the rest).
 

@@ -25,7 +25,7 @@ A new page needs: the `<head>` boilerplate + `<script src="js/analytics.js">`; a
 
 **`params.json`** — central metadata (name, tagline, bio, GA4 ID). Do not delete; used for page regeneration context.
 
-**`stylesheets/stylesheet.css`** — single consolidated stylesheet. Uses CSS custom properties (`--color-*`, `--font-*`, `--layout-*`) for theming. Includes dark mode via `@media (prefers-color-scheme: dark)` and responsive breakpoints. Typography via Google Fonts (Lato).
+**`stylesheets/stylesheet.css`** — single consolidated stylesheet. Uses CSS custom properties (`--color-*`, `--font-*`, `--layout-*`) for theming. Includes dark mode via `@media (prefers-color-scheme: dark)` and responsive breakpoints. Typography via Google Fonts: IBM Plex Serif (display), IBM Plex Sans (body), IBM Plex Mono (utility).
 
 **`Andrew_Rausch_CV.pdf`** — at the repo root; linked from `resume.html` and the sidebar (`js/sidebar.js`). A stray copy also exists at `images/Andrew_Rausch_CV.pdf` — the live links use the root copy. Update `resume.html` and `js/sidebar.js` if the file is renamed. **`Andrew_Rausch_CV.pdf` is generated from `cv/Andrew_Rausch_CV.md` — never hand-edit it or the `.docx` (see CV Maintenance below).**
 

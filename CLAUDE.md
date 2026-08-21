@@ -25,7 +25,7 @@ A new page needs: the `<head>` boilerplate + `<script src="js/analytics.js">`; a
 
 **`params.json`** — central metadata (name, tagline, bio, GA4 ID). Do not delete; used for page regeneration context.
 
-**`stylesheets/stylesheet.css`** — single consolidated stylesheet. Uses CSS custom properties (`--color-*`, `--font-*`, `--layout-*`) for theming. Includes dark mode via `@media (prefers-color-scheme: dark)` and responsive breakpoints. Typography via Google Fonts: IBM Plex Serif (display), IBM Plex Sans (body), IBM Plex Mono (utility).
+**`stylesheets/stylesheet.css`** — single consolidated stylesheet. Uses CSS custom properties (`--color-*`, `--font-*`, `--layout-*`) for theming, plus responsive breakpoints. Typography via Google Fonts: IBM Plex Serif (display), IBM Plex Sans (body), IBM Plex Mono (utility). The accent pair is `--color-accent` (`#1e4a7a`, "Doppler blue" — links at rest, active nav) and `--color-accent-dark` (`#c1272d`, "Doppler red" — hover, emphasis); the `@media (prefers-color-scheme: dark)` block re-points both to lifted variants (`#7ba6d4` / `#e85a5f`) and `@media print` flattens the accent to black — so style through the tokens, never a hardcoded hex.
 
 **`Andrew_Rausch_CV.pdf`** — at the repo root; linked from `resume.html` and the sidebar (`js/sidebar.js`). A stray copy also exists at `images/Andrew_Rausch_CV.pdf` — the live links use the root copy. Update `resume.html` and `js/sidebar.js` if the file is renamed. **`Andrew_Rausch_CV.pdf` is generated from `cv/Andrew_Rausch_CV.md` — never hand-edit it or the `.docx` (see CV Maintenance below).**
 

@@ -8,7 +8,7 @@ Personal academic website for Andrew C. Rausch, MD (Maternal-Fetal Medicine, Uni
 
 ## Deployment
 
-Push to `master` → GitHub Pages auto-deploys. No build step required. The `CNAME` file sets the custom domain (`andrewrausch.com`).
+Push to `main` → GitHub Pages auto-deploys (branch renamed from `master` on 2026-09-03). No build step required. The `CNAME` file sets the custom domain (`andrewrausch.com`).
 
 ## Architecture
 

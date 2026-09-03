@@ -150,7 +150,7 @@ Rausch AC, Longman RE. Neu-Laxova Syndrome, in Copel J, D’Alton ME, Feltovich 
 ### (g) Other works
 Rausch AC, Segal O, Speicher A, Dimijian D, Rochelson B. Fetal weight estimation using neural networks. 2020 AIUM Annual Meeting. – Invited for oral presentation but not given due to COVID-19 related cancellation.
 
-Boll ME, Chandrasekaran S, Sohail S, Rausch AC, Premkumar A. Relationship between placental efficiency score and adverse neonatal outcomes in pregnancies with fetal growth restriction. SMFM 2026 Global Congress, Utrecht, Netherlands. October 2026. Poster presentation.
+Boll ME, Chandrasekaran S, Sohail S, Rausch AC, Premkumar A. The relationship between placental efficiency score and adverse neonatal outcomes in pregnancies complicated by fetal growth restriction. SMFM 2026 Global Congress, Utrecht, Netherlands. October 2026. Poster presentation.
 
 Burns LP, Evans C, Rausch AC. Exam Indicated Cerclage Low Fidelity Training Model. ABOG Simulation Summit. 2026.
 

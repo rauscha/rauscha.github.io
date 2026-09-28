@@ -26,6 +26,7 @@ Email: ARausch@bsd.uchicago.edu
 2026–present | Subspecialty Board Certification, American Board of Obstetricians & Gynecologists, Maternal-Fetal Medicine
 
 ## HONORS & AWARDS
+2026 | Associate Junior Faculty Scholar, Bucksbaum-Siegler Institute for Clinical Excellence, University of Chicago
 2024 | National Faculty Award for Excellence in Resident Education, OB/GYN residency, University of Chicago & Endeavor Health
 2020 | 40 Featured Voices in MFM – 2020 SMFM Annual Meeting (@rauscha on Twitter)
 2016 | Gold Foundation Humanism and Excellence in Teaching Award – Columbia University College of Physicians and Surgeons

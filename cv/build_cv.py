@@ -268,7 +268,7 @@ def _export_via_word(docx_path: Path, pdf_path: Path) -> bool:
     finally:
         word.Quit()
         del word
-    return True
+    return pdf_path.exists()
 
 
 def _export_via_soffice(docx_path: Path, pdf_path: Path) -> bool:
@@ -294,19 +294,29 @@ def _export_via_soffice(docx_path: Path, pdf_path: Path) -> bool:
         print(f"LibreOffice export failed ({exc})", file=sys.stderr)
         return False
     produced = pdf_path.parent / (docx_path.stem + ".pdf")
-    if produced != pdf_path:
+    if produced != pdf_path and produced.exists():
         produced.replace(pdf_path)
-    return pdf_path.exists()
+    if not pdf_path.exists():
+        # soffice exits 0 even when it cannot load the file (e.g. Writer not installed)
+        print("LibreOffice export failed (no PDF was written)", file=sys.stderr)
+        return False
+    return True
 
 
 def export_pdf(docx_path: Path, pdf_path: Path) -> str:
+    # Delete the previous PDF first: each exporter is judged by whether the PDF exists
+    # afterward, so a stale copy left in place would pass a failed export as a success.
+    try:
+        pdf_path.unlink(missing_ok=True)
+    except PermissionError:
+        sys.exit(f"ERROR: cannot replace {pdf_path.name}; close it in any PDF viewer and rerun.")
     if _export_via_word(docx_path, pdf_path):
         return "word"
     if _export_via_soffice(docx_path, pdf_path):
         return "libreoffice"
     raise RuntimeError(
-        "No PDF exporter found. Install Microsoft Word (plus `pip install pywin32`) "
-        "or LibreOffice."
+        "PDF export failed: no exporter produced a PDF. Install Microsoft Word (plus "
+        "`pip install pywin32`) or LibreOffice (including its Writer component)."
     )
 
 

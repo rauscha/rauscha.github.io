@@ -36,9 +36,12 @@ The CV is maintained as Markdown and built into both served formats:
 - **`cv/Andrew_Rausch_CV.md`** — the **source of truth**. Plain Markdown: `## SECTION`,
   `### (a) Subsection`, dated entries as `2018-2021 | description` (must start with a
   4-digit year, or `Current` in place of a year — e.g. `Current | Society - Member`),
-  `- sub-bullet` lines (indented into the 1.15" description column with no bullet glyph,
+  `- sub-bullet` lines (indented into the 1" description column with no bullet glyph,
   used for the activities listed under a heading in Teaching Activities and Clinical
-  Activities), and `**bold**`/`*italic*` inline. A blank line between entries renders as
+  Activities), and `**bold**`/`*italic*` inline. Layout follows the UChicago BSD/COAP CV
+  template (title block, labeled contact lines, `Dated: Chicago` stamped with the build
+  date, numbered citations as `1. …`, own name as `<u>Rausch AC</u>`, Name/Month/Page
+  footer); full grammar in md-cv's README. A blank line between entries renders as
   vertical spacing (used between publication citations). `[TBC]` marks working
   scaffold, kept in the source but never reaching the served PDF: on a plain line it
   strips just that line; on a `##`/`###` heading (e.g. `## GRANTS & RESEARCH SUPPORT

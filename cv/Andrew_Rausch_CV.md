@@ -1,6 +1,7 @@
 # Andrew C Rausch, MD
 
-The University of Chicago
+Dated: Chicago
+Address: The University of Chicago
 Department of Obstetrics & Gynecology
 Section of Maternal-Fetal Medicine
 5758 S Maryland Ave, MC 2050
@@ -108,31 +109,31 @@ Leah Hefelfinger – University of Chicago/Endeavor Ob/Gyn resident (PGY-3) – 
 
 ### (a) Peer-reviewed Publications
 
-Burns LP, Wright G, Rausch AC, Premkumar A. “Unintentional Extensions of the Cesarean Hysterotomy Incision: A Review and Proposed Classification System,” Obstetrics & Gynecology: 1–11. 2026
+1. Burns LP, Wright G, <u>Rausch AC</u>, Premkumar A. “Unintentional Extensions of the Cesarean Hysterotomy Incision: A Review and Proposed Classification System,” Obstetrics & Gynecology: 1–11. 2026
 
-Tolbert B, Chandrasekaran S, Manthena V, et al. “Interventions and Perinatal Outcomes Associated With Recipient Twin Cardiomyopathy in the Setting of Twin-To-Twin Transfusion Syndrome: A Systematic Review,” Prenatal Diagnosis: 1–14. 2026
+2. Tolbert B, Chandrasekaran S, Manthena V, et al. “Interventions and Perinatal Outcomes Associated With Recipient Twin Cardiomyopathy in the Setting of Twin-To-Twin Transfusion Syndrome: A Systematic Review,” Prenatal Diagnosis: 1–14. 2026
 
-Ploran EJ, Comfort L, Rausch A, Snellings JT, & Rochelson B. Perceptual distortions during simultaneous continuous monitoring of fetal and maternal heart rate in laboring patients. The Journal of Maternal-Fetal & Neonatal Medicine, 2026
+3. Ploran EJ, Comfort L, <u>Rausch A</u>, Snellings JT, & Rochelson B. Perceptual distortions during simultaneous continuous monitoring of fetal and maternal heart rate in laboring patients. The Journal of Maternal-Fetal & Neonatal Medicine, 2026
 
-Morgan JC, Rios J, Kahl T, Prasad M, Rausch A, Longman R, Mehra S, Shaaban A, Premkumar A. Management of monochorionic diamniotic twin gestation affected by Type-II selective fetal growth restriction: cost-effectiveness analysis. Ultrasound Obstet Gynecol. 2025
+4. Morgan JC, Rios J, Kahl T, Prasad M, <u>Rausch A</u>, Longman R, Mehra S, Shaaban A, Premkumar A. Management of monochorionic diamniotic twin gestation affected by Type-II selective fetal growth restriction: cost-effectiveness analysis. Ultrasound Obstet Gynecol. 2025
 
-Burns LP, Potchileev S, Mueller A, Azzi M, Premkumar A, Peterson J, Rausch A, Gonzalez M, Silasi M, Karumanchi SA, Thadhani R, Rana S. Real-world evidence for the utility of serum soluble fms-like tyrosine kinase 1/placental growth factor test for routine clinical evaluation of hospitalized women with hypertensive disorders of pregnancy. Am J Obstet Gynecol. 2025
+5. Burns LP, Potchileev S, Mueller A, Azzi M, Premkumar A, Peterson J, <u>Rausch A</u>, Gonzalez M, Silasi M, Karumanchi SA, Thadhani R, Rana S. Real-world evidence for the utility of serum soluble fms-like tyrosine kinase 1/placental growth factor test for routine clinical evaluation of hospitalized women with hypertensive disorders of pregnancy. Am J Obstet Gynecol. 2025
 
-Ploran EJ, Soni S, Snellings JT, Rausch A, Rochelson B. The effect of perceptual decision-making on the interpretation of twin fetal heart rate tracings. The Journal of Maternal-Fetal & Neonatal Medicine. 2022.
+6. Ploran EJ, Soni S, Snellings JT, <u>Rausch A</u>, Rochelson B. The effect of perceptual decision-making on the interpretation of twin fetal heart rate tracings. The Journal of Maternal-Fetal & Neonatal Medicine. 2022.
 
-Blitz MJ, Gerber RP, Gulersen M, Shan W, Rausch AC, Prasannan L, Meirowitz N, Rochelson B. Preterm birth among women with and without severe acute respiratory syndrome coronavirus 2 infection. Acta Obstet Gynecol Scand. 2021
+7. Blitz MJ, Gerber RP, Gulersen M, Shan W, <u>Rausch AC</u>, Prasannan L, Meirowitz N, Rochelson B. Preterm birth among women with and without severe acute respiratory syndrome coronavirus 2 infection. Acta Obstet Gynecol Scand. 2021
 
-Blitz MJ, Rochelson B, Rausch AC, Solmonovich R, Shan W, Combs A, Nimaroff M. Universal testing for coronavirus disease 2019 in pregnant women admitted for delivery: prevalence of peripartum infection and rate of asymptomatic carriers at four New York hospitals within an integrated healthcare system. American Journal of Obstetrics & Gynecology MFM. 2020;2(3):100169.
+8. Blitz MJ, Rochelson B, <u>Rausch AC</u>, Solmonovich R, Shan W, Combs A, Nimaroff M. Universal testing for coronavirus disease 2019 in pregnant women admitted for delivery: prevalence of peripartum infection and rate of asymptomatic carriers at four New York hospitals within an integrated healthcare system. American Journal of Obstetrics & Gynecology MFM. 2020;2(3):100169.
 
-Wieland D, Burke M, Rausch A, Bowman D, Bobby P. Impact of a Quality Improvement Initiative on the Episiotomy Rate at a Community Hospital. J Repro Med. 2017;62(6):615–620.
+9. Wieland D, Burke M, <u>Rausch A</u>, Bowman D, Bobby P. Impact of a Quality Improvement Initiative on the Episiotomy Rate at a Community Hospital. J Repro Med. 2017;62(6):615–620.
 
-Ohtani T, Bouix S, Hosokawa T, Saito Y, Eckbo R, Ballinger T, Rausch AC, Melonakos E, Kubicke M. Abnormalities in white matter connections between orbitofrontal cortex and anterior cingulate cortex and their associations with negative symptoms in schizophrenia: A DTI study. Schizophrenia Research. 2014;157(1–3):190–197.
+10. Ohtani T, Bouix S, Hosokawa T, Saito Y, Eckbo R, Ballinger T, <u>Rausch AC</u>, Melonakos E, Kubicke M. Abnormalities in white matter connections between orbitofrontal cortex and anterior cingulate cortex and their associations with negative symptoms in schizophrenia: A DTI study. Schizophrenia Research. 2014;157(1–3):190–197.
 
-Rao M, Concannon TW, Iovin R, Yu W, Chan J, Lypas G, Terasawa T, Gaylor J, Kong L, Rausch AC, Lau J, Kitsios G. Identification of topics for comparative effectiveness systematic reviews in the field of cancer imaging. Journal of Comparative Effectiveness Research. 2013;2(5):483–495.
+11. Rao M, Concannon TW, Iovin R, Yu W, Chan J, Lypas G, Terasawa T, Gaylor J, Kong L, <u>Rausch AC</u>, Lau J, Kitsios G. Identification of topics for comparative effectiveness systematic reviews in the field of cancer imaging. Journal of Comparative Effectiveness Research. 2013;2(5):483–495.
 
-Whitford TJ, Savadjiev P, Kubicki M, O’Donnell L, Terry D, Bouix S, Westin CF, Schneiderman J, Bobrow L, Rausch AC, Niznikiewicz M, Nestor P, Pantelis C, Wood S, McCarley R, Shenton M. Fiber geometry in the corpus callosum in schizophrenia: Evidence for transcallosal misconnection. Schizophrenia Research. 2011;132(1):69–74.
+12. Whitford TJ, Savadjiev P, Kubicki M, O’Donnell L, Terry D, Bouix S, Westin CF, Schneiderman J, Bobrow L, <u>Rausch AC</u>, Niznikiewicz M, Nestor P, Pantelis C, Wood S, McCarley R, Shenton M. Fiber geometry in the corpus callosum in schizophrenia: Evidence for transcallosal misconnection. Schizophrenia Research. 2011;132(1):69–74.
 
-Whitford TJ, Mathalon DH, Shenton ME, Roach BJ, Bammer R, Adcock RA, Bouix S, Kubicki M, De Siebenthal J, Rausch AC, Schneiderman J, Ford JM. Electrophysiological and diffusion tensor imaging evidence of delayed corollary discharges in patients with schizophrenia. Psychol Med. 2011;41(5):959–969.
+13. Whitford TJ, Mathalon DH, Shenton ME, Roach BJ, Bammer R, Adcock RA, Bouix S, Kubicki M, De Siebenthal J, <u>Rausch AC</u>, Schneiderman J, Ford JM. Electrophysiological and diffusion tensor imaging evidence of delayed corollary discharges in patients with schizophrenia. Psychol Med. 2011;41(5):959–969.
 
 ### (b) Peer-reviewed works in non-traditional outlets
 ### (c) Peer-reviewed works accepted or in press
@@ -140,30 +141,30 @@ Whitford TJ, Mathalon DH, Shenton ME, Roach BJ, Bammer R, Adcock RA, Bouix S, Ku
 ### (e) Books
 
 ### (f) Book chapters
-Meirowitz N, Sharma R, Rausch AC. Antenatal care for postbariatric women, in Mahmood T, Arulkumaran S & Chervenak FA (2nd ed) Obesity and Obstetrics. pp 105–115. 2020
+1. Meirowitz N, Sharma R, <u>Rausch AC</u>. Antenatal care for postbariatric women, in Mahmood T, Arulkumaran S & Chervenak FA (2nd ed) Obesity and Obstetrics. pp 105–115. 2020
 
-Rausch AC, Longman RE. CHARGE Syndrome, in Copel J, D’Alton ME, Feltovich H, et al. Obstetric Imaging: Fetal Diagnosis and Care, 3rd Ed. In press.
+2. <u>Rausch AC</u>, Longman RE. CHARGE Syndrome, in Copel J, D’Alton ME, Feltovich H, et al. Obstetric Imaging: Fetal Diagnosis and Care, 3rd Ed. In press.
 
-Rausch AC, Longman RE. Klippel-Trenaunay-Weber Syndrome, in Copel J, D’Alton ME, Feltovich H, et al. Obstetric Imaging: Fetal Diagnosis and Care, 3rd Ed. In press.
+3. <u>Rausch AC</u>, Longman RE. Klippel-Trenaunay-Weber Syndrome, in Copel J, D’Alton ME, Feltovich H, et al. Obstetric Imaging: Fetal Diagnosis and Care, 3rd Ed. In press.
 
-Rausch AC, Longman RE. Neu-Laxova Syndrome, in Copel J, D’Alton ME, Feltovich H, et al. Obstetric Imaging: Fetal Diagnosis and Care, 3rd Ed. In press.
+4. <u>Rausch AC</u>, Longman RE. Neu-Laxova Syndrome, in Copel J, D’Alton ME, Feltovich H, et al. Obstetric Imaging: Fetal Diagnosis and Care, 3rd Ed. In press.
 
 ### (g) Other works
-Rausch AC, Segal O, Speicher A, Dimijian D, Rochelson B. Fetal weight estimation using neural networks. 2020 AIUM Annual Meeting. – Invited for oral presentation but not given due to COVID-19 related cancellation.
+1. <u>Rausch AC</u>, Segal O, Speicher A, Dimijian D, Rochelson B. Fetal weight estimation using neural networks. 2020 AIUM Annual Meeting. – Invited for oral presentation but not given due to COVID-19 related cancellation.
 
-Boll ME, Chandrasekaran S, Sohail S, Rausch AC, Premkumar A. The relationship between placental efficiency score and adverse neonatal outcomes in pregnancies complicated by fetal growth restriction. SMFM 2026 Global Congress, Utrecht, Netherlands. October 2026. Poster presentation.
+2. Boll ME, Chandrasekaran S, Sohail S, <u>Rausch AC</u>, Premkumar A. The relationship between placental efficiency score and adverse neonatal outcomes in pregnancies complicated by fetal growth restriction. SMFM 2026 Global Congress, Utrecht, Netherlands. October 2026. Poster presentation.
 
-Burns LP, Evans C, Rausch AC. Exam Indicated Cerclage Low Fidelity Training Model. ABOG Simulation Summit. 2026.
+3. Burns LP, Evans C, <u>Rausch AC</u>. Exam Indicated Cerclage Low Fidelity Training Model. ABOG Simulation Summit. 2026.
 
-Mills K, Rausch AC. Managing Needs: Fellow-Resident Interactions and Optimizing the Learning Environment for All. Greater General Surgery Grand Rounds, University of Chicago. Feb 25, 2026.
+4. Mills K, <u>Rausch AC</u>. Managing Needs: Fellow-Resident Interactions and Optimizing the Learning Environment for All. Greater General Surgery Grand Rounds, University of Chicago. Feb 25, 2026.
 
-Rausch AC. Preterm Labor: Diagnosis, Management, and Prevention. On-demand Webinar, Association of Physician Associates in Obstetrics and Gynecology. December 2024. Available online at https://apaog.org/webinars
+5. <u>Rausch AC</u>. Preterm Labor: Diagnosis, Management, and Prevention. On-demand Webinar, Association of Physician Associates in Obstetrics and Gynecology. December 2024. Available online at https://apaog.org/webinars
 
-Rausch AC, Dalal S, Kellar A. Preconception Through Postpartum: Updates in IBD Management and a Multidisciplinary Care Approach. February 2026.
+6. <u>Rausch AC</u>, Dalal S, Kellar A. Preconception Through Postpartum: Updates in IBD Management and a Multidisciplinary Care Approach. February 2026.
 
 ### (h) Clinical trials ongoing, unpublished
-Quantitative Ultrasound Biomarkers for Gynecologic and Obstetric Imaging Across the Reproductive Lifespan, Heather Whitney PhD PI – Andrew C Rausch, co-I, 0.1 FTE
+1. Quantitative Ultrasound Biomarkers for Gynecologic and Obstetric Imaging Across the Reproductive Lifespan, Heather Whitney PhD PI – Andrew C Rausch, co-I, 0.1 FTE
 
-NATAL study, Ashish Premkumar MD PhD PI – Andrew C Rausch, co-I (unfunded)
+2. NATAL study, Ashish Premkumar MD PhD PI – Andrew C Rausch, co-I (unfunded)
 
 ### (i) Works in review, preparation, etc.

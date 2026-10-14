@@ -23,8 +23,8 @@ Email: ARausch@bsd.uchicago.edu
 ## BOARD CERTIFICATION & LICENSURE
 2018–2022 | Medical License, New York
 2021–present | Medical License, Illinois
-2021–present | Board Certification, American Board of Obstetricians & Gynecologists
-2026–present | Subspecialty Board Certification, American Board of Obstetricians & Gynecologists, Maternal-Fetal Medicine
+2021–present | Board Certification, American Board of Obstetrics and Gynecology (ABOG)
+2026–present | Subspecialty Board Certification, American Board of Obstetrics and Gynecology (ABOG), Maternal-Fetal Medicine
 
 ## HONORS & AWARDS
 2026 | Associate Junior Faculty Scholar, Bucksbaum-Siegler Institute for Clinical Excellence, University of Chicago
@@ -39,7 +39,7 @@ Email: ARausch@bsd.uchicago.edu
 2004 | Carleton Merit Scholar
 
 ## INVITED TALKS
-2020 | Dept of Obstetrics & Gynecology Grand Rounds. “Artificial Intelligence in Obstetrics” Stamford Hospital, Stamford, CT
+2020 | Department of Obstetrics & Gynecology Grand Rounds. “Artificial Intelligence in Obstetrics” Stamford Hospital, Stamford, CT
 2021 | Department of Obstetrics & Gynecology Grand Rounds. “Artificial Intelligence in Obstetrics” University of Chicago, Chicago, IL
 2023 | ENDORAMA – Section of Endocrinology case presentations – University of Chicago
 2024 | Association of Physician Associates in Obstetrics and Gynecology Webinar Education Series – Preterm Labor: Diagnosis, Management, and Prevention
@@ -83,7 +83,7 @@ Neonatology Fellowship, University of Chicago
 2019–2021 | Program Evaluation Committee, Fellow Representative, MFM Fellowship, Northwell Health/Hofstra University
 
 ## CLINICAL ACTIVITIES & PROGRAM DEVELOPMENT
-2026–present | Director of Ultrasound, Department of Obstetrics & Gynecology, University of Chicago. Assumed day-to-day operational leadership of the ultrasound unit in January 2026; formally appointed Director of Ultrasound in February 2026. The unit (Hyde Park, offsite locations, and affiliated FQHCs) achieved AIUM practice accreditation in September 2026, and scan volume has increased 10–12% year over year since the transition. Developed and implemented a written quality assurance program for the unit.
+2026–present | Director of Ultrasound, Department of Obstetrics & Gynecology, University of Chicago. Appointed Director of Ultrasound in February 2026. The unit (Hyde Park, offsite locations, and affiliated FQHCs) achieved AIUM practice accreditation in September 2026, and scan volume has increased 10–12% year over year since that appointment. Developed and implemented a written quality assurance program for the unit.
 Program development
 - First-trimester detailed anatomy program, built to AIUM practice accreditation standards
 - Targeted transabdominal and transvaginal fetal neurosonography
@@ -93,9 +93,10 @@ Fetal procedures
 - Sole current faculty member trained in Shirodkar cerclage placement
 Fetal and Neonatal Care Center (FNCC)
 - Level I fetal therapy capability
-- Alternate Representative for the University of Chicago's membership in the North American Fetal Therapy Network (NAFTNet)
+- Alternate Representative for the University of Chicago's membership in the North American Fetal Therapy Network (NAFTNet), 2023–present
 Genetics and Ultrasound Case Conference
 - Lead the conference, a recurring CME-accredited multidisciplinary meeting, and serve as its official representative for CME accreditation
+2025–present | MFM Lead, Pregnancy and Preconception in IBD clinic, University of Chicago. Multidisciplinary preconception and pregnancy care for patients with inflammatory bowel disease.
 
 ## PROFESSIONAL MEMBERSHIPS & ASSOCIATIONS
 Current | American College of Obstetricians and Gynecologists – Fellow
@@ -114,8 +115,8 @@ Christy Evans – University of Chicago/Endeavor Ob/Gyn resident – Exam Indica
 Leah Hefelfinger – University of Chicago/Endeavor Ob/Gyn resident (PGY-3) – Resident ultrasound rotation curriculum; ultrasound curriculum survey for Ob/Gyn residency programs
 
 ## GRANTS & RESEARCH SUPPORT
-2026 | Co-Principal Investigator, PF5 international collaboration grant, University of Chicago – Radboudumc (Radboud University Medical Center, Nijmegen, Netherlands); Heather Whitney, PhD, UChicago PI. Uncertainty quantification for AI on medical imaging, with multimodal ovarian cancer characterization (MRI, ultrasound, proteomics, EHR) for differentiation, prognosis, and diagnosis of recurrence. Submitted 2026; pending review.
-*[TBC] Add exact submission date, then status (scored / awarded) and grant number.*
+2026 | Co-Principal Investigator, PF5 international collaboration grant, University of Chicago – Radboud University; Heather Whitney, PhD, UChicago PI. Uncertainty quantification for AI on medical imaging, with multimodal ovarian cancer characterization (MRI, ultrasound, proteomics, EHR) for differentiation, prognosis, and diagnosis of recurrence. Submitted September 2026; pending review.
+*[TBC] Add status (scored / awarded) and grant number.*
 *[TBC] Industry research collaborations in development – two collaborations with GE HealthCare providing in-kind ultrasound equipment (two loaner systems) to the unit for evaluation of shear wave elastography and contrast-enhanced ultrasound. Add official agreement names/dates once executed; verify consistency with institutional COI disclosure.*
 
 ## Bibliography
@@ -176,7 +177,7 @@ Leah Hefelfinger – University of Chicago/Endeavor Ob/Gyn resident (PGY-3) – 
 6. <u>Rausch AC</u>, Dalal S, Kellar A. Preconception Through Postpartum: Updates in IBD Management and a Multidisciplinary Care Approach. February 2026.
 
 ### (h) Clinical trials ongoing, unpublished
-1. Quantitative Ultrasound Biomarkers for Gynecologic and Obstetric Imaging Across the Reproductive Lifespan, Heather Whitney PhD PI – Andrew C Rausch, co-I, 0.1 FTE
+1. PF5 international collaboration grant, University of Chicago – Radboud University: uncertainty quantification for AI on medical imaging in multimodal ovarian cancer characterization, Heather Whitney PhD UChicago PI – Andrew C Rausch, co-PI (submitted September 2026)
 
 2. NATAL study, Ashish Premkumar MD PhD PI – Andrew C Rausch, co-I (unfunded)
 

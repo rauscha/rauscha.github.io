@@ -47,6 +47,7 @@ Email: ARausch@bsd.uchicago.edu
 2026 | University of Chicago Medicine Webinars – Preconception Through Post-partum: Updates in IBD Management and a Multidisciplinary Care Approach
 2026 | The Pregnancy Meeting – Scientific Forum: Ultrasound – The Utility of the First Trimester Ultrasound in Detecting Congenital Anomalies and Placental Abnormalities
 2026 | Greater General Surgery Grand Rounds, University of Chicago – Managing Needs: Fellow-Resident Interactions and Optimizing the Learning Environment for All
+2027 | The Pregnancy Meeting – Scientific Forum: Ultrasound – Reinvited speaker (title forthcoming)
 
 ## TEACHING ACTIVITIES
 Ob/Gyn Residency, University of Chicago
@@ -82,7 +83,7 @@ Neonatology Fellowship, University of Chicago
 2019–2021 | Program Evaluation Committee, Fellow Representative, MFM Fellowship, Northwell Health/Hofstra University
 
 ## CLINICAL ACTIVITIES & PROGRAM DEVELOPMENT
-2026–present | Director of Ultrasound, Department of Obstetrics & Gynecology, University of Chicago. Assumed day-to-day operational leadership of the ultrasound unit in January 2026; formally appointed Director of Ultrasound in February 2026. The unit (Hyde Park, offsite locations, and affiliated FQHCs) achieved AIUM practice accreditation in September 2026, and scan volume has increased 10–12% year over year since the transition.
+2026–present | Director of Ultrasound, Department of Obstetrics & Gynecology, University of Chicago. Assumed day-to-day operational leadership of the ultrasound unit in January 2026; formally appointed Director of Ultrasound in February 2026. The unit (Hyde Park, offsite locations, and affiliated FQHCs) achieved AIUM practice accreditation in September 2026, and scan volume has increased 10–12% year over year since the transition. Developed and implemented a written quality assurance program for the unit.
 Program development
 - First-trimester detailed anatomy program, built to AIUM practice accreditation standards
 - Targeted transabdominal and transvaginal fetal neurosonography
@@ -90,6 +91,11 @@ Program development
 Fetal procedures
 - One of three section faculty performing fetal procedures: percutaneous umbilical blood sampling, intrauterine transfusion, and fetal shunt placement, in addition to induction of fetal asystole, selective reduction, amniocentesis, and chorionic villus sampling
 - Sole current faculty member trained in Shirodkar cerclage placement
+Fetal and Neonatal Care Center (FNCC)
+- Level I fetal therapy capability
+- Alternate Representative for the University of Chicago's membership in the North American Fetal Therapy Network (NAFTNet)
+Genetics and Ultrasound Case Conference
+- Lead the conference, a recurring CME-accredited multidisciplinary meeting, and serve as its official representative for CME accreditation
 
 ## PROFESSIONAL MEMBERSHIPS & ASSOCIATIONS
 Current | American College of Obstetricians and Gynecologists – Fellow
@@ -107,8 +113,9 @@ Alexandra Diaz-Barbe – Pritzker School of Medicine medical student – A low-c
 Christy Evans – University of Chicago/Endeavor Ob/Gyn resident – Exam Indicated Cerclage Low Fidelity Training Model
 Leah Hefelfinger – University of Chicago/Endeavor Ob/Gyn resident (PGY-3) – Resident ultrasound rotation curriculum; ultrasound curriculum survey for Ob/Gyn residency programs
 
-## GRANTS & RESEARCH SUPPORT [TBC]
-*[TBC] In preparation: Co-Principal Investigator (funded role anticipated), PF5 international collaboration grant, University of Chicago – Radboudumc (Heather Whitney, PhD, UChicago PI) – uncertainty quantification for AI on medical imaging, with multimodal ovarian cancer characterization (MRI, ultrasound, proteomics, EHR) for differentiation, prognosis, and diagnosis of recurrence. Add status once submitted (submitted / scored / awarded) and the grant number.*
+## GRANTS & RESEARCH SUPPORT
+2026 | Co-Principal Investigator, PF5 international collaboration grant, University of Chicago – Radboudumc (Radboud University Medical Center, Nijmegen, Netherlands); Heather Whitney, PhD, UChicago PI. Uncertainty quantification for AI on medical imaging, with multimodal ovarian cancer characterization (MRI, ultrasound, proteomics, EHR) for differentiation, prognosis, and diagnosis of recurrence. Submitted 2026; pending review.
+*[TBC] Add exact submission date, then status (scored / awarded) and grant number.*
 *[TBC] Industry research collaborations in development – two collaborations with GE HealthCare providing in-kind ultrasound equipment (two loaner systems) to the unit for evaluation of shear wave elastography and contrast-enhanced ultrasound. Add official agreement names/dates once executed; verify consistency with institutional COI disclosure.*
 
 ## Bibliography
@@ -149,11 +156,11 @@ Leah Hefelfinger – University of Chicago/Endeavor Ob/Gyn resident (PGY-3) – 
 ### (f) Book chapters
 1. Meirowitz N, Sharma R, <u>Rausch AC</u>. Antenatal care for postbariatric women, in Mahmood T, Arulkumaran S & Chervenak FA (2nd ed) Obesity and Obstetrics. pp 105–115. 2020
 
-2. <u>Rausch AC</u>, Longman RE. CHARGE Syndrome, in Copel J, D’Alton ME, Feltovich H, et al. Obstetric Imaging: Fetal Diagnosis and Care, 3rd Ed. In press.
+2. <u>Rausch AC</u>, Longman RE. CHARGE Syndrome, in Copel J, D’Alton ME, Feltovich H, et al. Obstetric Imaging: Fetal Diagnosis and Care, 3rd Ed. Elsevier. 2025
 
-3. <u>Rausch AC</u>, Longman RE. Klippel-Trenaunay-Weber Syndrome, in Copel J, D’Alton ME, Feltovich H, et al. Obstetric Imaging: Fetal Diagnosis and Care, 3rd Ed. In press.
+3. <u>Rausch AC</u>, Longman RE. Klippel-Trenaunay-Weber Syndrome, in Copel J, D’Alton ME, Feltovich H, et al. Obstetric Imaging: Fetal Diagnosis and Care, 3rd Ed. Elsevier. 2025
 
-4. <u>Rausch AC</u>, Longman RE. Neu-Laxova Syndrome, in Copel J, D’Alton ME, Feltovich H, et al. Obstetric Imaging: Fetal Diagnosis and Care, 3rd Ed. In press.
+4. <u>Rausch AC</u>, Longman RE. Neu-Laxova Syndrome, in Copel J, D’Alton ME, Feltovich H, et al. Obstetric Imaging: Fetal Diagnosis and Care, 3rd Ed. Elsevier. 2025
 
 ### (g) Other works
 1. <u>Rausch AC</u>, Segal O, Speicher A, Dimijian D, Rochelson B. Fetal weight estimation using neural networks. 2020 AIUM Annual Meeting. – Invited for oral presentation but not given due to COVID-19 related cancellation.

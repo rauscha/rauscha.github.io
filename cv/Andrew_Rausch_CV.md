@@ -50,12 +50,15 @@ Email: ARausch@bsd.uchicago.edu
 
 ## TEACHING ACTIVITIES
 Ob/Gyn Residency, University of Chicago
-- Designed and implemented a novel curriculum for resident training in obstetric and gynecologic ultrasound
+- Rotation Director, ultrasound rotation (2026). Designed and implemented a novel written curriculum for resident training in obstetric and gynecologic ultrasound, with graduated scanning and reading expectations (with Leah Hefelfinger, PGY-3)
+- Built mfm.media (2026), a lecture library for the section hosting rebuilt resident lectures and interactive teaching models (fetal Doppler physiology, power calculations)
 - Annual didactics: Embryology and Teratology; Preterm Birth – Diagnosis and Prevention; Fetal Growth Restriction and Antenatal Monitoring; Alloimmunization
 
 Maternal-Fetal Medicine Fellowship, University of Chicago
 - Designed the fellowship ultrasound education curriculum, including a novel curriculum in advanced obstetric ultrasound
 - Annual didactics: Ultrasound Basics; Fetal CNS Ultrasound; Pulse Wave Doppler in Fetal Ultrasound; First Trimester Detailed Anatomy; Fundamentals of Needle Guided Intervention (FUNGI) simulation
+- Expanded FUNGI with low-fidelity trainers built in house: an exam-indicated cerclage model (ABOG Simulation Summit 2026) and a model of fetal intracardiac intervention
+- Programmed and deployed an offline intrauterine transfusion calculator for the fellows (2026)
 
 Neonatology Fellowship, University of Chicago
 - Didactics: Maternal-Fetal Medicine Topics in NICU Care
@@ -69,7 +72,7 @@ Neonatology Fellowship, University of Chicago
 2022–present | Sub-internship lead, Antepartum and Birth Rooms Sub-I University of Chicago
 2026–present | Associate Program Director, MFM Fellowship, University of Chicago
 2022–2026 | Site Director, MFM Fellowship, University of Chicago
-2022–present | Med Ed Champion (MFM), OB/Gyn residency, University of Chicago
+2022–2026 | Med Ed Champion (MFM), OB/Gyn residency, University of Chicago
 2021–present | Resident Recruitment Committee, University of Chicago
 2021–present | MFM Fellow Recruitment Committee, University of Chicago
 2021–present | Clinical Competency Committee, Ob/Gyn residency, University of Chicago
@@ -79,11 +82,14 @@ Neonatology Fellowship, University of Chicago
 2019–2021 | Program Evaluation Committee, Fellow Representative, MFM Fellowship, Northwell Health/Hofstra University
 
 ## CLINICAL ACTIVITIES & PROGRAM DEVELOPMENT
-2026–present | Director of Ultrasound, Department of Obstetrics & Gynecology, University of Chicago. Assumed day-to-day operational leadership of the ultrasound unit in January 2026 following the departure of the prior director; formally appointed Director of Ultrasound in February 2026. Unit volume increased 7.3% over the first six months of leadership compared with the preceding six months (22,993 to 24,680 examinations); second-quarter 2026 volume reached 13,109 examinations, a 14.0% increase over the average of the two pre-transition quarters.
+2026–present | Director of Ultrasound, Department of Obstetrics & Gynecology, University of Chicago. Assumed day-to-day operational leadership of the ultrasound unit in January 2026; formally appointed Director of Ultrasound in February 2026. The unit (Hyde Park, offsite locations, and affiliated FQHCs) achieved AIUM practice accreditation in September 2026, and scan volume has increased 10–12% year over year since the transition.
 Program development
-- First-trimester detailed anatomy program, including AIUM practice accreditation
+- First-trimester detailed anatomy program, built to AIUM practice accreditation standards
 - Targeted transabdominal and transvaginal fetal neurosonography
-- Expansion of obstetric ultrasound services at Ingalls Memorial Hospital, including transition of obstetric imaging from Radiology
+- Expansion of obstetric ultrasound services at Ingalls Memorial Hospital, including transition of obstetric imaging from Radiology and guidance of the Radiology OB/Gyn ultrasound quality improvement program
+Fetal procedures
+- One of three section faculty performing fetal procedures: percutaneous umbilical blood sampling, intrauterine transfusion, and fetal shunt placement, in addition to induction of fetal asystole, selective reduction, amniocentesis, and chorionic villus sampling
+- Sole current faculty member trained in Shirodkar cerclage placement
 
 ## PROFESSIONAL MEMBERSHIPS & ASSOCIATIONS
 Current | American College of Obstetricians and Gynecologists – Fellow
@@ -99,11 +105,11 @@ Current | Ad hoc Reviewer for Ultrasound in Obstetrics and Gynecology
 ## MENTEES
 Alexandra Diaz-Barbe – Pritzker School of Medicine medical student – A low-cost, low-fidelity model of fetal intracardiac intervention
 Christy Evans – University of Chicago/Endeavor Ob/Gyn resident – Exam Indicated Cerclage Low Fidelity Training Model
-Leah Hefelfinger – University of Chicago/Endeavor Ob/Gyn resident (PGY-3) – Ultrasound curriculum survey for Ob/Gyn residency programs
+Leah Hefelfinger – University of Chicago/Endeavor Ob/Gyn resident (PGY-3) – Resident ultrasound rotation curriculum; ultrasound curriculum survey for Ob/Gyn residency programs
 
 ## GRANTS & RESEARCH SUPPORT [TBC]
-*[TBC] Anticipated: Co-Principal Investigator, R01 (0.1 FTE) – multimodal ovarian cancer characterization (MRI, ultrasound, proteomics, EHR) for differentiation, prognosis, and diagnosis of recurrence. Add status (submitted / scored / awarded), grant number, and contact PI.*
-*[TBC] Industry research collaborations – two collaborations with GE HealthCare providing in-kind ultrasound equipment (two loaner systems) to the unit. Add official agreement names/dates; verify consistency with institutional COI disclosure.*
+*[TBC] In preparation: Co-Principal Investigator (funded role anticipated), PF5 international collaboration grant, University of Chicago – Radboudumc (Heather Whitney, PhD, UChicago PI) – uncertainty quantification for AI on medical imaging, with multimodal ovarian cancer characterization (MRI, ultrasound, proteomics, EHR) for differentiation, prognosis, and diagnosis of recurrence. Add status once submitted (submitted / scored / awarded) and the grant number.*
+*[TBC] Industry research collaborations in development – two collaborations with GE HealthCare providing in-kind ultrasound equipment (two loaner systems) to the unit for evaluation of shear wave elastography and contrast-enhanced ultrasound. Add official agreement names/dates once executed; verify consistency with institutional COI disclosure.*
 
 ## Bibliography
 
@@ -168,3 +174,4 @@ Leah Hefelfinger – University of Chicago/Endeavor Ob/Gyn resident (PGY-3) – 
 2. NATAL study, Ashish Premkumar MD PhD PI – Andrew C Rausch, co-I (unfunded)
 
 ### (i) Works in review, preparation, etc.
+1. <u>Rausch AC</u>, et al. Neonatal birth weight prediction from fetal biometry: a benchmark of 13 model families from the Hadlock and Shepard formulas to modern machine learning, showing an asymptotic floor to average error regardless of method. Manuscript in preparation for Ultrasound in Obstetrics & Gynecology, with planned extension to the Northwell Health delivery database (>100,000 deliveries) and the INTERGROWTH-21st dataset.

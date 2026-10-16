@@ -16,7 +16,7 @@ Email: ARausch@bsd.uchicago.edu
 
 ## ACADEMIC TRAINING
 2004–2008 | BA, Physics & Astronomy, Carleton College, Northfield, MN
-2010–2014 | MD, Tufts University Sackler School of Medicine, Boston, MA
+2010–2014 | MD, Tufts University School of Medicine, Boston, MA
 2014–2018 | Residency, Stamford Hospital/Columbia University, Stamford, CT
 2018–2021 | Fellowship, Maternal-Fetal Medicine, Northwell Health/Hofstra University Zucker School of Medicine, Manhasset, NY
 

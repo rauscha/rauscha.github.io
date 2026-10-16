@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# TODO: export_pdf() deletes the previous PDF before exporting, so if every exporter fails nothing is restored and the next run has no baseline for its text diff; look into moving it aside and restoring it on failure.
 """Build a styled .docx and .pdf academic CV from a Markdown source.
 
 Canonical home: https://github.com/rauscha/md-cv

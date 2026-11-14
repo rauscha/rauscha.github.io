@@ -72,6 +72,7 @@ Neonatology Fellowship, University of Chicago
 2024–present | FBC Policy Committee, University of Chicago
 2022–present | Sub-internship lead, Antepartum and Birth Rooms Sub-I University of Chicago
 2026–present | Associate Program Director, MFM Fellowship, University of Chicago
+*[TBC] Note: APD start confirmed by Andrew as June 2026 (Site Director through then).*
 2022–2026 | Site Director, MFM Fellowship, University of Chicago
 2022–2026 | Med Ed Champion (MFM), OB/Gyn residency, University of Chicago
 2021–present | Resident Recruitment Committee, University of Chicago
